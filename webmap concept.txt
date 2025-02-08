@@ -1,0 +1,64 @@
+
+___Website Roadmap__
+
+
+Welcome/Landing -> Home
+
+Home -> Menubar -> Wtf is this?
+                   Creations -> Gallery -> Personal Art Category
+                   Jay's Commission Zone -> LINK to Weebly site -> Example Gallery
+                   Meet The Crew
+                   Journal
+                   Links n Shit
+                   Enter (The Rainbow Zone)
+        Footer ->  Sitemap 
+                   Privacy
+                   Carrd
+                   Blinkies Blinkies Buttons Blinkiessss
+
+        Content -> Updates(What's Goin Onn~)
+                   Mock Popups of annoying ads and warnings, statements from the crew
+                   GuestBook
+
+Wtf is this? (Who we are, why this site exists, what's up)
+
+Creations -> Gallery (sort by art type, headmate, date)
+             The Twin Stars
+             Jay
+             Sammy
+             Nurse
+             Gabe
+             Silver
+             Gold
+
+Jay's Commission Zone -> Jay's Store (weebly)-> About
+                         Back                  Gallery
+                                               Trello
+                                               TOS
+                                               Privacy Policy
+
+Meet The Crew -> Disclaimer Motherfucker
+                 Who's New -> BD
+                              XD
+                              The Sailor Twins
+                              The Hydro Twins
+                              Kat
+                 Usual Fronters -> The Twinkling Trio ("The Twin Stars" if it's just us two)
+                                   Jay
+                                   Sammy
+                                   Nurse
+                                   Gabe
+                                   Gold
+                                   L (Leader)
+
+Journal -> Updates (What we r up to)
+           Progress
+           Plans
+           Random Shit
+
+Links n Shit -> All Our Friends Yeaaaa
+                Cool Sites We found
+                Webrings??? (idk, if we join one)
+                Blinkies, Buttons, and Shit We Made aa
+
+The Rainbow Zone -> An interactive web project that tries to capture the whole headspace concept of ours, but in a public way.
