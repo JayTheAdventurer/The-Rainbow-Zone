@@ -21,11 +21,8 @@
     --secondary-font:'PixelifySans', monospace;
 
     /*Misc*/
-    --bg-img: url("Assets\Rainbow\256_rainbow_dash_runner.gif")
-
-
-
-
+    --bg-img: url("Assets\Rainbow\256_rainbow_dash_runner.gif");
+    --main-cursor: url();
 
 }
 
@@ -35,5 +32,5 @@ body{
     background-size: cover;
     font-family: var(--primary-font);
     margin: 0px;
-    cursor: url("");
+    cursor: url('D:\Coding Projects\Rainbow Parade\The-Rainbow-Web\Assets\UI-UX\cursor.png'), auto;	
 }
