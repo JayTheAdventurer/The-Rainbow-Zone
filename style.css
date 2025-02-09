@@ -1,0 +1,39 @@
+/*fonts n imports*/
+
+@font-face {font-family: 'PixelOperator';src: url(Assets/Fonts/pixel_operator/PixelOperator.ttf);}
+@font-face {font-family: 'FlowBlock';src: url(Assets/Fonts/FlowBlock-Regular.ttf);}
+@font-face {font-family: 'Tiny5';src: url(Assets/Fonts/pixel_operator/PixelOperator.ttf);}
+@font-face {font-family: 'PixelifySans';src: url(Assets/Fonts/PixelifySans-VariableFont_wght.ttf);}
+@font-face {font-family: 'SixtyFour';src: url(Assets/Fonts/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf);}
+
+/*Main Vibe*/
+:root{
+    --bg-color:#222034; /*Dark bg for main page, dark boxes*/
+    --innerbox-color:#ffffff; /*color for content boxes, set to white for now.*/
+    
+    /*Text*/
+    --title-color: #CF595A;
+    --text-color: #6C62A9;
+    --light-text: #ffffff;
+    --link--visited: #CF629B;
+    /*fonts*/
+    --primary-font: 'PixelOperator', monospace;
+    --secondary-font:'PixelifySans', monospace;
+
+    /*Misc*/
+    --bg-img: url("Assets\Rainbow\256_rainbow_dash_runner.gif")
+
+
+
+
+
+}
+
+body{
+    background: var(--bg-img) no-repeat fixed;
+    background-color: var(--bg-color);
+    background-size: cover;
+    font-family: var(--primary-font);
+    margin: 0px;
+    cursor: url("");
+}
