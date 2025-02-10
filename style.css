@@ -1,10 +1,9 @@
 /*fonts n imports*/
 
-@font-face {font-family: 'PixelOperator';src: url(Assets/Fonts/pixel_operator/PixelOperator.ttf);}
-@font-face {font-family: 'FlowBlock';src: url(Assets/Fonts/FlowBlock-Regular.ttf);}
-@font-face {font-family: 'Tiny5';src: url(Assets/Fonts/pixel_operator/PixelOperator.ttf);}
-@font-face {font-family: 'PixelifySans';src: url(Assets/Fonts/PixelifySans-VariableFont_wght.ttf);}
-@font-face {font-family: 'SixtyFour';src: url(Assets/Fonts/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf);}
+@font-face {font-family: 'PixelOperator';src: url(Assets/Fonts/pixel_operator/PixelOperator.ttf) format("truetype");}
+@font-face {font-family: 'PixelifySans';src: url(Assets/Fonts/PixelifySans-VariableFont_wght.ttf) format("truetype");}
+@font-face {font-family: 'SixtyFour';src: url(Assets/Fonts/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf) format("truetype");}
+@font-face {font-family: 'PixelOperatorHBSC';src: url(Assets/Fonts/pixel_operator/PixelOperatorHBSC.ttf) format("truetype");}
 
 /*Main Vibe*/
 :root{
@@ -13,16 +12,23 @@
     
     /*Text*/
     --title-color: #CF595A;
-    --text-color: #6C62A9;
     --light-text: #ffffff;
-    --link--visited: #CF629B;
+    --link-color: #6191a9;
+    --link--visited: #6C62A9;
+    --link--hover: #CF629B;
+    --text--footer: #e5da61;
+    --text-footer-2: #8f62a9;
+    --text-color-2: #cf9d5a;
+    --text-color-3: #449081;
     /*fonts*/
     --primary-font: 'PixelOperator', monospace;
     --secondary-font:'PixelifySans', monospace;
+    --tertiary-font: 'SixtyFour', monospace;
+    --fourth--font: 'PixelOperatorHBSC', monospace;
 
-    /*Misc*/
-    --bg-img: url("Assets\Rainbow\256_rainbow_dash_runner.gif");
-    --main-cursor: url();
+    /*Misc
+    --bg-img: url("");
+    --main-cursor: url("");*/
 
 }
 
@@ -32,5 +38,181 @@ body{
     background-size: cover;
     font-family: var(--primary-font);
     margin: 0px;
-    cursor: url('D:\Coding Projects\Rainbow Parade\The-Rainbow-Web\Assets\UI-UX\cursor.png'), auto;	
+    /*cursor: url('D:\Coding Projects\Rainbow Parade\The-Rainbow-Web\Assets\UI-UX\cursor.png'), auto;*/
 }
+
+p{
+    font-size: 18px; margin: 8px 0px; line-height: 16px;
+}
+
+a{
+    font-family: var(--secondary-font);
+}
+
+a:visited{color:var(--link--visited)}
+a:Hover{color: var(--link--hover);}
+
+b{
+    font-family: var(--secondary-font);
+    font-size: 25px;
+}
+
+h1{
+    Font-family: var(--primary-font);
+    color: var(--title-color);
+    margin: 10px 5px;
+    font-weight: 100;
+    padding: 5px; 
+}
+h2{
+    Font-family: var(--tertiary-font);
+    color: var(--light-text);
+    margin: 10px 5px;
+    font-weight: 100;
+    padding: 5px; 
+}
+
+txtabout{
+    word-wrap: break-word;
+}
+
+.topmenu{
+    background: #2e171e;
+    box-shadow: 0px 5px var(--link--hover), 0px -5px var(--link-color);
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0px 0px;
+    text-align: center;
+    padding: 5px 0px;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+}
+
+.topmenu a{
+    color: inherit;
+    font-family: var(--tertiary-font);
+    text-decoration: none;
+    text-shadow: 1px 1px var(--link-color);
+    padding: 10px 10px;
+    margin: 0px;
+    font-size: 13px;
+    border-right: 1px solid #CF629B;
+
+
+    background:
+    linear-gradient(
+        to right,
+        #CF595AFF,
+        #cf9d5aFF,
+        #e5da61FF,
+        #449081FF,
+        #6191a9FF,
+        #8f62a9FF
+    );
+
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+.topmenu a:hover{
+    background-size: 100% 3px, 0 3px;
+    background:
+    linear-gradient(
+        to right,
+        #CF595AFF,
+        #cf9d5aFF,
+        #e5da61FF,
+        #449081FF,
+        #6191a9FF,
+        #8f62a9FF
+    );
+    transition: background-size 400ms;
+}
+
+.topmenu a:not(:last-child)::after{
+    border-right: 0px;
+}
+
+
+footer{
+    background-color: #2e171e;
+    vertical-align: middle;
+    text-align: center;
+    box-shadow: 0px 5px var(--link--hover), 0px -5px var(--link-color);
+}
+
+footer a{
+    font-family: var(--tertiary-font);
+    text-decoration: none;
+    text-shadow: 1px 1px var(--link-color);
+    padding: 10px 10px;
+    margin: 0px;
+    font-size: 13px;
+}
+
+footer p{
+    color: var(--text-footer-2);
+    padding: 5px;
+    margin: 4px;
+}
+
+#footer img { image-rendering: pixelated;}
+
+.button{
+    text-align: center;
+}
+.blinkie{
+    text-align: center;
+}
+
+.button img { image-rendering: pixelated;}
+.blinkie img { image-rendering: pixelated;}
+
+.barboxes{
+    align-items: flex-start;
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+.contentbox{
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+    background-color: #2e171e;
+
+    border-image:
+    linear-gradient(
+        to right,
+        #CF595A,
+        #cf9d5a,
+        #e5da61,
+        #449081,
+        #6191a9,
+        #8f62a9,
+        #CF629B
+    ) 1;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+}
+
+.innerbox{
+    box-shadow: 1px solid #CF595A;
+    border: 2px dashed #CF629B;
+    text-align: center;
+    overflow: auto;
+    margin:15px 5px;
+    padding: 15px;
+    height: 100%;
+}
+#centerbar{width: 50%;}
+#leftbar{width: 25%; margin-left: 40px;}
+#rightbar{width: 25%; margin-right: 40px;}
+
+.dividergif {
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+  }
