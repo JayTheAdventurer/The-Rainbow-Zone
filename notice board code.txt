@@ -1,0 +1,49 @@
+<div>
+
+            <div class="mySlides" style="display: block;">
+              <img src="https://ne0nbandit.github.io/assets/art/jay/workingclass.png" style="width:100%">
+            </div>
+            <div class="mySlides" style="display: none;">
+              <a target="_blank" href="https://www.youtube.com/watch?v=bSoFNcovrb8"><img src="https://i.imgur.com/gtS89up.gif/RedFlags.gif" style="width:100%"></a>
+            </div>
+            <div class="mySlides" style="display: none;">
+              <a target="_blank" href="https://www.youtube.com/watch?v=3vsVvT_lVmU"><img src="https://i.imgur.com/691okLd.gif/TennaBloodpop.gif" style="width:100%"></a>
+            </div>
+            <div class="mySlides" style="display: none;">
+              <a href="/cable"><img src="https://i.imgur.com/rhlSJlk.png/cinema.png" style="width:100%"></a>
+            </div>        
+            <div class="mySlides" style="display: none;">
+              <a href="/artwork/leagueoflegends"><img src="https://i.imgur.com/qjOtLpi.jpg/AsolNim2.jpg" style="width:100%"></a>
+            </div> 
+                      
+            
+            <a class="prev" onclick="plusSlides(-1)"><img src="https://i.imgur.com/aZF9pSL.gif/ArrowL.gif"></a>
+            <a class="next" onclick="plusSlides(1)"><img src="https://i.imgur.com/XdmyzwN.gif/ArrowR.gif"></a>
+          
+            <div class="galleryNav">
+              <div class="caption-container">
+                  <span id="caption"><h2>Local raccoon gets office job</h2><p style="text-wrap: initial;">no longer has time to update personal website :(</p><p>&nbsp;</p></span>
+              </div>
+              
+              <div class="row">
+                <div class="column">
+                  <img class="thumb activethumb" src="https://ne0nbandit.github.io/assets/art/jay/workingclass.png" style="width:100%" onclick="currentSlide(1)" alt="<h2>Local raccoon gets office job</h2><p style=&quot;text-wrap: initial;&quot;>no longer has time to update personal website :(</p><p>&nbsp;</p>">
+                </div>
+                <div class="column">
+                  <img class="thumb" src="https://i.imgur.com/gtS89up.gif/RedFlags.gif" style="width:100%" onclick="currentSlide(2)" alt="<h2>Red Flags Animation <i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot; style=&quot;font-size: 14px;&quot;></i></h2><p>Feat Rouxls Kaard and Klieg Lights (Deltarune OC)</p><p><a target=&quot;_blank&quot; href=&quot;https://www.youtube.com/watch?v=bSoFNcovrb8&quot;><span> Watch ></span></a></p>">
+                </div>
+                <div class="column">
+                  <img class="thumb" src="https://i.imgur.com/691okLd.gif/TennaBloodpop.gif" style="width:100%" onclick="currentSlide(3)" alt="<h2>Bloodpop Animation Meme <i class=&quot;fa fa-external-link&quot; aria-hidden=&quot;true&quot; style=&quot;font-size: 14px;&quot;></i></h2><p>Feat Tenna (Deltarune OC)</p><p><a target=&quot;_blank&quot; href=&quot;https://www.youtube.com/watch?v=3vsVvT_lVmU&quot;><span> Watch ></span></a></p>">
+                </div>
+                <div class="column">
+                <img class="thumb" src="https://i.imgur.com/rhlSJlk.png/cinema.png" style="width:100%" onclick="currentSlide(4)" alt="<h2>Deltarune (Cable AU)</h2><p>We have Deltarune Chapter 3 at home</p><p><a href=&quot;/cable&quot;><span> Read more ></span></a></p>">
+                </div>
+                <div class="column">
+                <img class="thumb" src="https://i.imgur.com/qjOtLpi.jpg/AsolNim2.jpg" style="width:100%" onclick="currentSlide(5)" alt="<h2>New Art Archive</h2><p>League of Legends Fan Art gallery is finally up! :)</p><p><a href=&quot;/artwork/leagueoflegends&quot;><span> Read more ></span></a></p>">
+                </div>
+                
+              </div>
+            </div>
+            <script src="https://ne0nbandit.neocities.org/js/slideshow.js"></script>
+          
+<div>

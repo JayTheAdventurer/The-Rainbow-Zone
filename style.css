@@ -8,6 +8,7 @@
 /*Main Vibe*/
 :root{
     --bg-color:#222034; /*Dark bg for main page, dark boxes*/
+    --div--color:#2e171e;
     --innerbox-color:#ffffff; /*color for content boxes, set to white for now.*/
     
     /*Text*/
@@ -20,6 +21,8 @@
     --text-footer-2: #8f62a9;
     --text-color-2: #cf9d5a;
     --text-color-3: #449081;
+    --tritone-1: #252966;
+    --tritone-2: #57d3d6;
     /*fonts*/
     --primary-font: 'PixelOperator', monospace;
     --secondary-font:'PixelifySans', monospace;
@@ -33,6 +36,7 @@
 }
 
 body{
+    color: var(--light-text);
     background: var(--bg-img) no-repeat fixed;
     background-color: var(--bg-color);
     background-size: cover;
@@ -42,10 +46,12 @@ body{
 }
 
 p{
-    font-size: 18px; margin: 8px 0px; line-height: 16px;
+    
+    font-size: 20px; margin: 8px 0px; line-height: 16px;
 }
 
 a{
+    color: var(--link-color);
     font-family: var(--secondary-font);
 }
 
@@ -72,9 +78,90 @@ h2{
     padding: 5px; 
 }
 
+/*Text editing*/
+
+.pixelboard{
+        display: flex;
+        justify-content: center;
+        border: 2px dotted var(--text-footer-2);
+        padding: 2px 0px;
+        }
+
+.pixelboard p{
+        font-weight: 100;
+        font-size: 25px;
+}
+
+.headabout{
+    border: 2px dotted var(--innerbox-color);
+    background-image: repeating-linear-gradient(to right, var(--tritone-1), var(--tritone-2), var(--innerbox-color), var(--tritone-2), var(--tritone-1));
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+    background-clip:text;
+    
+}
+
+.aboutcolor{
+    padding: 2px 0px;
+}
+
+
+
+.aboutblue {
+    color: #252966;
+    font-weight: 900;
+    text-shadow:
+    -1px -1px 0 #96d8da,  
+    1px -1px 0 #96d8da,
+    -1px 1px 0 #96d8da,
+    1px 1px 0 #96d8da;}
+
+.aboutcyan{color: #57d3d6;}
+.aboutwhite{text-shadow: none!important;}
+
 txtabout{
     word-wrap: break-word;
 }
+
+.shitwemake{
+    border: 2px dotted var(--link-color);
+    background-image: repeating-linear-gradient(
+        to right,
+        var(--title-color),
+        var(--text-color-2),
+        var(--text--footer),
+        var(--text-color-3),
+        var(--link-color),
+        var(--text-footer-2)
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+}
+
+.linktreetxt{
+    display: flex;
+    justify-content: center;
+}
+
+.justify{    align-items: flex-start; display: flex; margin: 0 auto; width: 100%;
+    background: linear-gradient(var(--bg-color), #5b95e1);
+
+}
+justifyleft{width: 50%;}
+.justifyright {text-align: right; width: 50%;}
+
+.directorytxt{font-size: 24px; font-family: 'PixelifySans'; text-decoration: underline;}
+.navlist {text-align: left;}
+.navlist ul {display: inline-block; text-align: left;}
+.navlist p{font-weight: 600; white-space: nowrap;}
+.navlist a {color: var(--tritone-2); font-size: 18px; font-weight: 600;}
+.listtitle a {color: var(--text--footer); font-size: 20px; font-weight: 800;}
+
+
+/*Header*/
 
 .topmenu{
     background: #2e171e;
@@ -101,14 +188,14 @@ txtabout{
 
 
     background:
-    linear-gradient(
+    repeating-linear-gradient(
         to right,
-        #CF595AFF,
-        #cf9d5aFF,
-        #e5da61FF,
-        #449081FF,
-        #6191a9FF,
-        #8f62a9FF
+        var(--title-color),
+        var(--text-color-2),
+        var(--text--footer),
+        var(--text-color-3),
+        var(--link-color),
+        var(--text-footer-2)
     );
 
     background-size: 100% 3px, 0 3px;
@@ -121,12 +208,12 @@ txtabout{
     background:
     linear-gradient(
         to right,
-        #CF595AFF,
-        #cf9d5aFF,
-        #e5da61FF,
-        #449081FF,
-        #6191a9FF,
-        #8f62a9FF
+        var(--title-color),
+        var(--text-color-2),
+        var(--text--footer),
+        var(--text-color-3),
+        var(--link-color),
+        var(--text-footer-2)
     );
     transition: background-size 400ms;
 }
@@ -135,6 +222,7 @@ txtabout{
     border-right: 0px;
 }
 
+/*footer*/
 
 footer{
     background-color: #2e171e;
@@ -170,6 +258,8 @@ footer p{
 .button img { image-rendering: pixelated;}
 .blinkie img { image-rendering: pixelated;}
 
+/*Main content boxes and Layout*/
+
 .barboxes{
     align-items: flex-start;
     display: flex;
@@ -180,25 +270,52 @@ footer p{
 .contentbox{
     padding: 10px;
     margin: 0px 10px 0px 10px;
-    background-color: #2e171e;
-
-    border-image:
+    
+    background:
+    linear-gradient(var(--div--color), var(--div--color)),
     linear-gradient(
         to right,
-        #CF595A,
-        #cf9d5a,
-        #e5da61,
-        #449081,
-        #6191a9,
-        #8f62a9,
-        #CF629B
-    ) 1;
-    border-style: solid;
-    border-width: 10px;
-    border-radius: 10px;
+        var(--title-color),
+        var(--text-color-2),
+        var(--text--footer),
+        var(--text-color-3),
+        var(--link-color),
+        var(--text-footer-2),
+        var(--link--hover)
+    );
+    
+    border: double 10px transparent;
+    border-radius: 30px;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    
 }
 
+.solobar-content /*Use this for fics and other solo content bar thingies so they appear expanded on mobile*/ {
+    background:
+    linear-gradient(var(--div--color), var(--div--color)),
+    linear-gradient(
+        to right,
+        var(--title-color),
+        var(--text-color-2),
+        var(--text--footer),
+        var(--text-color-3),
+        var(--link-color),
+        var(--text-footer-2),
+        var(--link--hover)
+    );
+    
+    border: double 10px transparent;
+    border-radius: 15px;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+    padding: 15px 10px 15px 10px;
+    margin: 0px 8px 0px 8px;
+  }
+
 .innerbox{
+    background-color: #2e171e;
     box-shadow: 1px solid #CF595A;
     border: 2px dashed #CF629B;
     text-align: center;
@@ -207,12 +324,67 @@ footer p{
     padding: 15px;
     height: 100%;
 }
+
+.soloinnerbox /*USE TOGETHER WITH SOLOBAR-CONTENT*/ {
+    background-color: #2e171e;
+    border: 2px dotted var(--link--hover);
+    text-align: center;
+    margin: 10px 3px;
+    overflow: auto;
+    padding: 10px;  
+  }
+
+
+  
+.solo-sidebar { margin: 25px auto; width: 50%; min-width: 900px;}
 #centerbar{width: 50%;}
 #leftbar{width: 25%; margin-left: 40px;}
 #rightbar{width: 25%; margin-right: 40px;}
 
+/*Images and Gifs*/
 .dividergif {
     border-radius: 5px;
-    height: 50px;
+    height: 25px;
     width: 100%;
+  }
+
+* { scrollbar-width: thin; 
+    scrollbar-color: #ac3232 var(--bg-color);}
+*::-webkit-scrollbar { width: 15px; }
+*::-webkit-scrollbar-track { background: var(--bg-color); border: 2px solid var(--light-text); border-radius: 4px; }
+*::-webkit-scrollbar-thumb { 
+    border: 2px solid var(--bg-color); 
+    background: 
+    linear-gradient(
+        45deg, 
+        #ac3232,
+        #df5026,
+        #fbf236,
+        #6abe30,
+        #5b95e1,
+        #695be1,
+        #cd41ab);
+    border-radius: 5px;
+}
+
+
+/*Rules*/
+
+  @media only screen and (max-width:1115px){
+
+    #leftbar { margin-left: auto; width: 27%; }
+    #centerbar { width: 75%;}
+    #rightbar { margin-right: auto; width: 27%; }
+    .solo-sidebar { width: 80%; min-width: 665px; }
+    .solobar-content { width: 100%; padding: 0px; margin: 0px; }
+    .soloinnerbox { padding: 20px 15px; }
+  }
+
+  @media only screen and (max-width:700px){
+    .barboxes{display: block;}
+    #leftbar {width: 100%; margin: 5px 0px;}
+    #centerbar{width: 100%; margin: 5px 0px;}
+    #rightbar{width: 100%; margin: 5px 0px;}
+    .solo-sidebar{width: 100%; min-width: auto;}
+    .topmenu a { margin: 5px 5px;}
   }
