@@ -6,7 +6,7 @@ Welcome/Landing -> Home
 
 Home -> Menubar -> Wtf is this?
                    Creations -> Gallery -> Personal Art Category
-                   Jay's Commission Zone -> LINK to Weebly site -> Example Gallery
+                   Jay's Commission Zone -> LINK to site -> Example Gallery
                    Meet The Crew
                    Journal
                    Links n Shit
@@ -31,11 +31,11 @@ Creations -> Gallery (sort by art type, headmate, date)
              Silver
              Gold
 
-Jay's Commission Zone -> Jay's Store (weebly)-> About
-                         Back                  Gallery
-                                               Trello
-                                               TOS
-                                               Privacy Policy
+Jay's Commission Zone -> Jay's Store -> About
+                         Back           Gallery
+                                        Trello
+                                        TOS
+                                        Privacy Policy
 
 Meet The Crew -> Disclaimer Motherfucker
                  Who's New -> BD
@@ -54,11 +54,14 @@ Meet The Crew -> Disclaimer Motherfucker
 Journal -> Updates (What we r up to)
            Progress
            Plans
+           Blog
            Random Shit
 
 Links n Shit -> All Our Friends Yeaaaa
                 Cool Sites We found
                 Webrings??? (idk, if we join one)
                 Blinkies, Buttons, and Shit We Made aa
+
+Guestbook
 
 The Rainbow Zone -> An interactive web project that tries to capture the whole headspace concept of ours, but in a public way.
