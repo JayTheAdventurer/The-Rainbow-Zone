@@ -41,8 +41,12 @@ body{
     background-color: var(--bg-color);
     background-size: cover;
     font-family: var(--primary-font);
+    line-height: 1.5;
     margin: 0px;
     /*cursor: url('D:\Coding Projects\Rainbow Parade\The-Rainbow-Web\Assets\UI-UX\cursor.png'), auto;*/
+
+    line-height: 1.2;
+    word-spacing: 1px;
 }
 
 p{
@@ -76,6 +80,12 @@ h2{
     margin: 10px 5px;
     font-weight: 100;
     padding: 5px; 
+}
+
+/*Text styling*/
+.txtaccess{
+    line-height: 1.5;
+    word-spacing: 1px;
 }
 
 /*Home styling*/
@@ -129,6 +139,11 @@ h2{
 .aboutcyan{color: #57d3d6;}
 .aboutwhite{text-shadow: none!important;}
 
+.aboutblue, .aboutcyan, .aboutwhite{
+    line-height: 1.2;
+    word-spacing: 1px;
+}
+
 txtabout{
     word-wrap: break-word;
 }
@@ -179,6 +194,16 @@ justifyleft{width: 50%;}
 }
 .stuffmade p{font-family: var(--tertiary-font); font-size: 25px; text-align: center;}
 
+.rainbowparade{
+    display: flex;
+    justify-content: center;
+    padding: 2px auto;
+    margin: 10px auto 0 auto;
+    width: 100%;
+}
+
+.rainbowparade p{font-family: var(--secondary-font); font-size: 30px; text-align: center; font-weight: 500; padding: 0px 1px 0px 0px;}
+
 .pfpcontainer{
     display: flex;
     align-items: center;
@@ -227,6 +252,8 @@ justifyleft{width: 50%;}
     align-items: center;
 }
 .craftscontainer p{font-size: 22px;}
+
+
 
 
 /*Header*/
@@ -352,8 +379,8 @@ footer p{
         var(--link--hover)
     );
     
-    border: double 10px transparent;
-    border-radius: 30px;
+    border: double 3px transparent;
+    border-radius: 5px;
     background-origin: border-box;
     background-clip: padding-box, border-box;
     
@@ -391,6 +418,7 @@ footer p{
     margin:15px 5px;
     padding: 15px;
     height: 100%;
+    
 }
 
 .soloinnerbox /*USE TOGETHER WITH SOLOBAR-CONTENT*/ {
@@ -402,10 +430,19 @@ footer p{
     padding: 10px;  
   }
 
-
+.doubleinnerbox{
+    background-color: #2e171e;
+    box-shadow: 1px solid #CF595A;
+    text-align: center;
+    overflow: auto;
+    margin:15px 5px;
+    padding: 15px;
+    height: 100%;
+}
   
 .solo-sidebar { margin: 25px auto; width: 50%; min-width: 900px;}
 #centerbar{width: 50%;}
+#doublebar{width: 75%; margin-right: 40px;}
 #leftbar{width: 25%; margin-left: 40px;}
 #rightbar{width: 25%; margin-right: 40px;}
 
@@ -443,6 +480,7 @@ footer p{
     #leftbar { margin-left: auto; width: 27%; }
     #centerbar { width: 75%;}
     #rightbar { margin-right: auto; width: 27%; }
+    #doublebar{width: 75%; margin-right: auto;}
     .solo-sidebar { width: 80%; min-width: 665px; }
     .solobar-content { width: 100%; padding: 0px; margin: 0px; }
     .soloinnerbox { padding: 20px 15px; }
@@ -452,9 +490,10 @@ footer p{
     .justifyright {width: 0;}
     .justifyright img { width: 0%}
     .navlist {text-align: center;}
-    
+
     .pfpcontainer, .artscontainer, .craftscontainer{display: flex; align-items: center;margin: auto; max-width: fit-content;}
     .pfpcontainer img{image-rendering: pixelated;}
+    .craftscontainer img{width:100%;}
     
   }
 
@@ -464,6 +503,7 @@ footer p{
     #centerbar{width: 100%; margin: 5px 0px;}
     #rightbar{width: 100%; margin: 5px 0px;}
     .solo-sidebar{width: 100%; min-width: auto;}
+    #doublebar{width: 100%; margin: 5px 0px;}
     .topmenu a { margin: 5px 5px;}
 
     .justifyleft{ text-align: center; width: 100%; height: 100%;}
