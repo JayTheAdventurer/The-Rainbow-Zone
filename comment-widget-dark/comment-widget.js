@@ -17,7 +17,7 @@
 */
 
 // The values in this section are REQUIRED for the widget to work! Keep them in quotes!
-const s_stylePath = 'D:/Coding Projects/Rainbow Parade/The-Rainbow-Web/style.css';
+const s_stylePath = 'https://jaytheadventurer.github.io/The-Rainbow-Zone/style.css';
 const s_formId = '1FAIpQLSe5FRFtiQZxfWBW6Y1ceEQGjuV4OfULmk7m5205N_YsnYLvnQ';
 const s_nameId = '1288454434';
 const s_websiteId = '747035474';
