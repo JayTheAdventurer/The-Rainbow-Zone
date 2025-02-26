@@ -44,7 +44,7 @@ document.getElementById('headerlinks').innerHTML =
                 </nav>
 
                 <div id="footerlinks">
-                    <a href="sitemap.html">Sitemap</a>
+                    <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/sitemap.html">Sitemap</a>
                     <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/UI-UX/dot.png" alt="Dot">
                     <a href="">Privacy</a>
                     <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/UI-UX/dot.png" alt="Dot">
