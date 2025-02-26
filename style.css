@@ -254,6 +254,25 @@ justifyleft{width: 50%;}
 .craftscontainer p{font-size: 22px;}
 
 
+.innerworldcontainer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 768px;
+    margin: auto;
+}
+
+.innerworldcontainer img{
+    text-align: center;
+    width:384px;
+    height: 200px;
+    object-fit: contain;
+    margin: 0 5px;
+    align-items: center;
+}
+.innerworldcontainer p{font-size: 22px;}
+
+
 
 
 /*Header*/
