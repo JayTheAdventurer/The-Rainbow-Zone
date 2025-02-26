@@ -4,7 +4,7 @@ document.getElementById('headerlinks').innerHTML =
         <div id="title"><a href=""></a></div><!--Title-->
         <nav>
             <div class="topmenu"> <!--Main Navigation-->
-                <img src="/sitetitle.png" alt="">
+                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/UI-UX/sitetitle.png" alt="">
                 
                 <a href="/home.html">Home</a>
 
