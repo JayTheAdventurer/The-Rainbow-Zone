@@ -4,19 +4,19 @@ document.getElementById('headerlinks').innerHTML =
         <div id="title"><a href=""></a></div><!--Title-->
         <nav>
             <div class="topmenu"> <!--Main Navigation-->
-                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/UI-UX/sitetitle.png" alt="">
+                <img src="/sitetitle.png" alt="">
                 
-                <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/home.html">Home</a>
+                <a href="/home.html">Home</a>
 
                 <a href="">Wtf is this?</a>
 
-                <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/creations.html">Creations</a>
+                <a href="/creations.html">Creations</a>
 
                 <a href="">Jay's Commission Zone</a>
 
-                <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/thecrew.html">Meet the Crew</a>
+                <a href="/thecrew.html">Meet the Crew</a>
 
-                <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/journal.html">Journal</a>
+                <a href="/journal.html">Journal</a>
 
                 <a href="">Link Page</a>
 
