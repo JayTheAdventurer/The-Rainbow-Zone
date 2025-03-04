@@ -3,23 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <base href="https://jaytheadventurer.github.io/The-Rainbow-Zone/"> <!--don't delete this, need for all links-->
+
         <meta property="og:title" content="The Rainbow Zone"> 
         <meta property="og:description" content="Home of The Rainbow Parade"> 
-        <meta property="og:image" content="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/rainbow button 256.gif"> 
+        <meta property="og:image" content="Assets/rainbow button 256.gif"> 
         <meta property="og:url" content="therainbowzone.com"> 
         <meta property="og:type" content="website"> 
+
         <title>Home - ⋒★The Rainbow Zone★⋒</title>
-        <link href="https://jaytheadventurer.github.io/The-Rainbow-Zone/style.css" rel="stylesheet" type="text/css" media="all">
-        <link rel="icon" type="gif" href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow sona nobg.gif">
+        <link href="style.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="icon" type="gif" href="Assets/Rainbow/rainbow sona nobg.gif">
     </head>
 
     <body>
 
         <div id="headerlinks">
-            <script src="https://jaytheadventurer.github.io/The-Rainbow-Zone/links.js"></script>
+            <script src="links.js"></script>
             <noscript>
                 <p style="text-align: center;">This main menu uses JS to display the navigation on all pages, so it is easy to update. 
-                   Use the <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/sitemap.html">sitemap</a> to navigate if you have JS disabled.</p>
+                   Use the <a href="Pages/sitemap.html">sitemap</a> to navigate if you have JS disabled.</p>
               </noscript>
         </div>
 
@@ -32,7 +36,7 @@
                     <div class="innerbox">
                         <h2>Welcome To Our Site</h2><br>
                         
-                        <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow sona baby sparkl x2.gif" alt="Babby's First Site: a baby, watery-eyed, rainbow sona is pleading for your understanding. Look! They're so cute, pleaseeee"><br><br>
+                        <img src="Assets/Rainbow/rainbow sona baby sparkl x2.gif" alt="Babby's First Site: a baby, watery-eyed, rainbow sona is pleading for your understanding. Look! They're so cute, pleaseeee"><br><br>
                         
                         <b>Notice!</b><br>
                         <p class="txtaccess">This is our first real site! Still under construction!</p>
@@ -40,14 +44,14 @@
                     </div>
                     <!--box 1 ends-->
     
-                    <img class="dividergif" src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow divider border h25.gif" alt="gif divider 1">
+                    <img class="dividergif" src="Assets/Rainbow/rainbow divider border h25.gif" alt="gif divider 1">
                     
                     <div class="innerbox">
                         <h2>Sign Our Guestbook!</h2>
-                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/guestbook.html"><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/UI-UX/guestbook anim.gif" alt="Sign Guestbook"></a>
+                        <a href="Pages/guestbook.html"><img src="Assets/UI-UX/guestbook anim.gif" alt="Sign Guestbook"></a>
                     </div>
                     
-                    <img class="dividergif" src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow divider border h25.gif" alt="gif divider 1">
+                    <img class="dividergif" src="Assets/Rainbow/rainbow divider border h25.gif" alt="gif divider 1">
     
                 </div><!--Content Box ends-->
                 
@@ -75,37 +79,52 @@
                             
                             </h2>
                         <!--slides-->
-                        <div class="slides">
-                            <img src="" alt="Hey, you're plural? What does that even mean?"></div>
-    
-                        <div class="slides">
-                            <img src="" alt="Enter the Rainbow Zone"></div>
-    
-                        <div class="slides">
-                            <img src="" alt="Commissions and Requests, leads to our business (and less fun) site."></div>
-    
-                        <div class="slides">
-                            <img src="" alt="Journal and Updates"></div>
+
+                        <div class="slideshow">
+                            <div class="mySlides fade">
+                                <div class="imgcontainer"><a href=""><img src="Assets/Rainbow/rainbow sona what is plurality.gif" alt="Hey, you're plural? What does that even mean?" style="width:100%"></a></div>
+                                <div class="text">Hey, you're plural? What does that even mean?</div>
+                            </div>
+        
+                            <div class="mySlides fade">
+                                <div class="imgcontainer"><img src="Assets/Rainbow/rainbow spiral button x2.gif" alt="Enter the Rainbow Zone, look into the spiral, you know you wanna do it" style="width:100%; object-fit: fill;" ></div>
+                                <div class="text">Enter the Rainbow Zone</div>
+                            </div>
+        
+                            <div class="mySlides fade">
+                                <div class="imgcontainer"><img src="Assets/Gallery/jay gradient icon.png" alt="Commissions and Requests, leads to our business (but still fun) site." style="width:100%"></div>
+                                <div class="text">Commissions and Requests</div>
+                            </div>
+        
+                            <div class="mySlides fade">
+                                <div class="imgcontainer"><img src="Assets/Rainbow/rainbow sona journals and updates.gif" alt="Journal and Updates" style="width:100%"></div>
+                                <div class="text">Journal and Updates</div>
+                            </div>
+
+                            <a class="prev" onclick="plusSlides(-1)" ><img src="Assets/UI-UX/arrow L.gif" alt="">❮</a>
+                            <a class="next" onclick="plusSlides(1)"><img src="Assets/UI-UX/arrow R.gif" alt=""></a>
+        
+                            <!--navigation buttons--> 
+                            <div style="text-align:center">
+                                  <span class="dot"></span> 
+                                  <span class="dot"></span> 
+                                  <span class="dot"></span> 
+                                  <span class="dot"></span> 
+                            </div>
+
+
+                            <script src="slideshow.js"></script>
+
+                        </div><!-- Slideshow stops here--> 
                         
-                        <!--slide arrows-->
-                        <a class="prev" onclick="plusSlides(-1)" href=""></a>
-                        <a class="next" onclick="plusSlides(1)" href=""></a>
-    
-                        <!--navigation buttons-->
-                        <div id="center">
-                            <span class="line" onclick="currentSlide1"></span>
-                            <span class="line" onclick="currentSlide2"></span>
-                            <span class="line" onclick="currentSlide3"></span>
-                        </div>
-                        <!-- Slideshow stops here--> 
-                    </div>
-                    <!--box 1 ends-->
+                    </div><!--box 1 ends-->
                     
-                    <img class="dividergif" src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow divider border h25.gif" alt="gif divider 1">
+                    
+                    <img class="dividergif" src="Assets/Rainbow/rainbow divider border h25.gif" alt="gif divider 1">
                     <div class="innerbox"><!--box 2 begins-->
     
                         <h2 class="headabout">Who The Hell Are Y'all?!</h2><br>
-                        <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/square pfp border 145ms.gif" alt="rainbow icon">
+                        <img src="Assets/square pfp border 145ms.gif" alt="rainbow icon">
                         <div class="aboutcolor"><!--Aboutcolor starts-->
                             <b class="aboutblue">You heard right : "Y'all"!</b>
                             <p class="aboutwhite">Our group name is Rainbow Parade!<br>
@@ -122,27 +141,16 @@
                     </div>
                     <!--box 2 ends-->
     
-                    <img class="dividergif" src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow divider border h25.gif" alt="gif divider 1">
+                    <img class="dividergif" src="Assets/Rainbow/rainbow divider border h25.gif" alt="gif divider 1">
     
                     <div class="innerbox"><!--box 3 begins-->
                         <h2 class="shitwemake">Shit We Make</h2>
-                        <!--Tab Gallery Start! -->
-                        <div class="tabgallery">
-                            <div class="tabBox">
-                                <nav class="tabmenu">
-                                    <div><img class="indexArt1" src="" alt="current art 1" onload="setSrc(0)" onclick="displayImg(this)"></div>
-                                    <div><img class="indexArt2" src="" alt="current art 2" onload="setSrc(1)" onclick="displayImg(this)"></div>
-                                    <div><img class="indexArt3" src="" alt="current art 3" onload="setSrc(2)" onclick="displayImg(this)"></div>
-                                    <div><img class="indexArt4" src="" alt="current art 4" onload="setSrc(3)" onclick="displayImg(this)"></div>
-                                </nav>
-    
-                                <div class="tabimgBox">
-                                        <span onclick="this.parentElement.style.display='none'" class="closetabImg">a</span>
-                                        <img id="imagebig" width="50%">
-                                </div>
-                            </div>
-                            <!--Tab Gallery Code Ends--> 
-                        </div>
+                        <!--Tab Gallery Starts -->
+                        
+
+                        
+                        <!--Tab Gallery Code Ends--> 
+                        
                     </div>
                     <!--box 3 ends-->
                 </div>
@@ -164,30 +172,30 @@
                         <p class="txtaccess">Check out our <span id="linkspage"><a href="">links page</a><span> for some buttons we made ourselves!</p><br>
                         
                         
-                        <a href=""><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/plural hell yea.gif" alt="Rainbow Parade button example 1"></a>
-                        <a href=""><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/button wave/pride button wave.gif" alt="Rainbow Parade button example 2"></a>
-                        <a href=""><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/plural symbol rainbow.gif" alt="Rainbow Parade button example 3"></a><br>
+                        <a href=""><img src="Assets/Blinkie/plural hell yea.gif" alt="Rainbow Parade button example 1"></a>
+                        <a href=""><img src="Assets/button wave/pride button wave.gif" alt="Rainbow Parade button example 2"></a>
+                        <a href=""><img src="Assets/Blinkie/plural symbol rainbow.gif" alt="Rainbow Parade button example 3"></a><br>
 
                         
-                        <a href=""><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/pride hell yeah dark.gif" alt="Rainbow Parade blinkie 1"></a>
-                        <a href=""><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/rainbow lover.gif" alt="Rainbow Parade blinkie 2"></a><br><br>
+                        <a href=""><img src="Assets/Blinkie/pride hell yeah dark.gif" alt="Rainbow Parade blinkie 1"></a>
+                        <a href=""><img src="Assets/Blinkie/rainbow lover.gif" alt="Rainbow Parade blinkie 2"></a><br><br>
                         
                         <div class="linktreetxt, txtaccess">
                             <p>...and here is our&nbsp;</p> <p style="color: #45e65f">Linktree!</p>
                         </div>
                         
-                        <a  href="https://linktr.ee/jaytheadventurer" ><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Social Media Icons/linktree icon test x0.25.gif" alt=""></a>
+                        <a  href="https://linktr.ee/jaytheadventurer" ><img src="Assets/Social Media Icons/linktree icon test x0.25.gif" alt=""></a>
                     </div>
                     <!--box 1 ends-->
                 
-                    <img class="dividergif" src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow divider border h25.gif" alt="gif divider 1">
+                    <img class="dividergif" src="Assets/Rainbow/rainbow divider border h25.gif" alt="gif divider 1">
                     
                     <div class="innerbox">
                         <h2>Click the Bunny and Slime!!!11!!1!!</h2>
-                        <a href=""><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/UI-UX/ray and v couple art x2.png" alt="V and Ray chibi couple art"></a>
+                        <a href=""><img src="Assets/UI-UX/ray and v couple art x2.png" alt="V and Ray chibi couple art"></a>
                     </div> 
     
-                    <img class="dividergif" src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow divider border h25.gif" alt="gif divider 1">
+                    <img class="dividergif" src="Assets/Rainbow/rainbow divider border h25.gif" alt="gif divider 1">
                 </div> <!--Content Box ends-->
                 
             </div>
@@ -197,10 +205,10 @@
         <!--Barboxes ends-->
 
         <div id="footerlink_button">
-            <script src="https://jaytheadventurer.github.io/The-Rainbow-Zone/links.js"></script>
+            <script src="links.js"></script>
             <noscript>
                 <p style="text-align: center;"><a href="#headerlinks">back to top</a><br>This bottom menu uses JS to display the navigation on all pages, so it is easy to update. 
-                   Use the <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/sitemap.html">sitemap</a> to navigate if you have JS disabled,<br> and the <a href="">links</a> page if you are interested in buttons.</p>
+                   Use the <a href="Pages/sitemap.html">sitemap</a> to navigate if you have JS disabled,<br> and the <a href="">links</a> page if you are interested in buttons.</p>
               </noscript>
           </div>
 
