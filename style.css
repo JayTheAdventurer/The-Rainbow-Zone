@@ -35,6 +35,32 @@
 
 }
 
+
+.theme-light {
+--div--color: #2e171e;
+--bg-color: #222034;
+--font-color: white;
+--tritone-2: #57d3d6;
+.aboutcyan{color: var(--tritone-2);}
+}
+
+.theme-dark {
+--div--color: #beb5e2;
+--bg-color: #6C62A9;
+--light-text: #252966;
+.aboutcyan{color: var(--tritone-1);}
+.text{color: var(--tritone-1);}
+.pixelboard{background-color: #1f1947;}
+.headabout{color: var(--tritone-1); background: #d4d1ad;}
+p{font-weight: 600;}
+.buttonstyle button{color: #ac3232; background-color: #d4d1ad;}
+.topmenu{background-color: #1f1947;}
+.topmenu a{color: white;}
+footer{background-color: #1f1947;;}
+}
+
+
+
 body{
     color: var(--light-text);
     background: var(--bg-img) no-repeat fixed;
@@ -51,7 +77,7 @@ body{
 
 p{
     
-    font-size: 20px; margin: 8px 0px; line-height: 16px;
+    font-size: 22px; margin: 8px 0px; line-height: 16px;
 }
 
 a{
@@ -87,6 +113,40 @@ h2{
     line-height: 1.5;
     word-spacing: 1px;
 }
+
+/*Home button styling*/
+
+.centerbutton{
+    position: relative;
+    text-align: center;
+
+}
+
+.buttonstyle{
+    background-color: var(--div--color);
+    position: relative;
+    height: 75px;
+    align-content: center;
+    text-align: center;
+
+    border: 2px dashed var(--link--visited);
+}
+
+.buttonstyle button{
+    color: #18115e;
+    background-color: var(--link--hover);
+    text-align: center;
+    
+    font-family: 'PixelifySans';
+    font-size: 20px;
+    font-weight: 500;
+
+    padding: 5px;
+    cursor: pointer;
+    border-color: var(--tritone-2);
+    border-radius: 7px;
+}
+
 
 /*Home styling*/
 
@@ -234,14 +294,14 @@ img {vertical-align: middle;}
   height: 15px;
   width: 15px;
   margin: 4px 2px;
-  background-color: #bbb;
+  background-color: var(--text-footer-2);
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #717171;
+  background-color: var(--title-color);
 }
 
 /* Fading animation */
@@ -281,7 +341,7 @@ img {vertical-align: middle;}
 
 
 .aboutblue {
-    color: #252966;
+    color: var(--tritone-1);
     font-weight: 900;
     text-shadow:
     -1px -1px 0 #96d8da,  
@@ -289,7 +349,7 @@ img {vertical-align: middle;}
     -1px 1px 0 #96d8da,
     1px 1px 0 #96d8da;}
 
-.aboutcyan{color: #57d3d6;}
+.aboutcyan{color: var(--tritone-1);}
 .aboutwhite{text-shadow: none!important;}
 
 .aboutblue, .aboutcyan, .aboutwhite{
@@ -582,9 +642,9 @@ footer p{
   }
 
 .innerbox{
-    background-color: #2e171e;
+   
     box-shadow: 1px solid #CF595A;
-    border: 2px dashed #CF629B;
+    border: 2px dashed var(--link--hover);
     text-align: center;
     overflow: auto;
     margin:15px 5px;
@@ -594,7 +654,7 @@ footer p{
 }
 
 .soloinnerbox /*USE TOGETHER WITH SOLOBAR-CONTENT*/ {
-    background-color: #2e171e;
+    background-color: var(--div--color);
     border: 2px dotted var(--link--hover);
     text-align: center;
     margin: 10px 3px;
@@ -603,7 +663,7 @@ footer p{
   }
 
 .doubleinnerbox{
-    background-color: #2e171e;
+    background-color: var(--div--color);
     box-shadow: 1px solid #CF595A;
     text-align: center;
     overflow: auto;
@@ -644,7 +704,6 @@ footer p{
     border-radius: 5px;
 }
 
-
 /*Rules*/
 
   @media only screen and (max-width:1115px){
@@ -657,14 +716,16 @@ footer p{
     .solobar-content { width: 100%; padding: 0px; margin: 0px; }
     .soloinnerbox { padding: 20px 15px; }
 
+    .buttonstyle{display: flex; flex-direction: column; text-align: center; vertical-align: middle; padding: 10px;}
+    .buttonstyle button{margin-bottom: 3px;}
+    .buttonstyle img{display: none;}
+
     .slideshow{width: 500px;}
     .mySlides{width: 475px;}
     .imgcontainer{ width: 450px;}
     .prev {left: -37px;}
     .next {right: -37px;}
     .prev, .next a{margin: -50px 0 0 0;}
-
-   
 
     .justify{background: linear-gradient(var(--bg-color), #5b95e1, var(--link-color))}
     .justifyleft{ text-align: center; width: 100%; height: 100%;}
@@ -675,7 +736,6 @@ footer p{
     .pfpcontainer, .artscontainer, .craftscontainer{display: flex; align-items: center;margin: auto; max-width: fit-content;}
     .pfpcontainer img{image-rendering: pixelated;}
     .craftscontainer img{width:100%;}
-    
   }
 
   @media only screen and (max-width:700px){
