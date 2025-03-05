@@ -61,6 +61,13 @@ footer{background-color: #1f1947;;}
 
 }
 
+/*Disabiliy styling*/
+.desaturate {
+    filter: saturate(0);
+}
+.saturate {
+    filter: saturate(1);
+}
 
 
 body{

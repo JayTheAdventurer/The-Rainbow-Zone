@@ -17,3 +17,15 @@ function toggleTheme() {
        setTheme('theme-light');
    }
 })();
+
+//Set saturatoin 
+function setSaturation(saturation) {
+    localStorage.setItem('saturation', saturate);
+    document.documentElement.className = saturation;
+}
+function saturationAdjust() {
+        document.body.classList.add('desaturate');
+}
+    function saturationColor() {
+        document.body.classList.remove('desaturate');
+    } 
