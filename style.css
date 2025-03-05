@@ -36,15 +36,16 @@
 }
 
 
-.theme-light {
+.theme-dark {
 --div--color: #2e171e;
 --bg-color: #222034;
 --font-color: white;
 --tritone-2: #57d3d6;
 .aboutcyan{color: var(--tritone-2);}
+
 }
 
-.theme-dark {
+.theme-light {
 --div--color: #beb5e2;
 --bg-color: #6C62A9;
 --light-text: #252966;
@@ -57,6 +58,7 @@ p{font-weight: 600;}
 .topmenu{background-color: #1f1947;}
 .topmenu a{color: white;}
 footer{background-color: #1f1947;;}
+
 }
 
 
@@ -392,7 +394,7 @@ justifyleft{width: 50%;}
 .directorytxt{font-size: 24px; font-family: 'PixelifySans'; text-decoration: underline;}
 .navlist {text-align: left;}
 .navlist ul {display: inline-block; text-align: left;}
-.navlist p{font-weight: 600; white-space: nowrap;}
+.navlist p{font-weight: 600; white-space: nowrap; color: white;}
 .navlist a {color: var(--tritone-2); font-size: 18px; font-weight: 600;}
 .navlist img{text-align: left;}
 .listtitle a {color: var(--text--footer); font-size: 20px; font-weight: 800;}
@@ -727,10 +729,10 @@ footer p{
     .next {right: -37px;}
     .prev, .next a{margin: -50px 0 0 0;}
 
-    .justify{background: linear-gradient(var(--bg-color), #5b95e1, var(--link-color))}
+ 
     .justifyleft{ text-align: center; width: 100%; height: 100%;}
     .justifyright {width: 0;}
-    .justifyright img { width: 0%}
+    .justifyright img { width: 0%;}
     .navlist {text-align: center;}
 
     .pfpcontainer, .artscontainer, .craftscontainer{display: flex; align-items: center;margin: auto; max-width: fit-content;}
@@ -761,3 +763,4 @@ footer p{
     .pfpcontainer, .artscontainer, .craftscontainer{display: flex; flex-direction: column; align-items: center;margin: auto; max-width: fit-content; }
     .craftscontainer img{width:100%;}
   }
+
