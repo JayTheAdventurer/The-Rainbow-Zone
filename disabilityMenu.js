@@ -19,10 +19,6 @@ function toggleTheme() {
 })();
 
 //Set saturatoin 
-function setSaturation(saturation) {
-    localStorage.setItem('saturation', saturate);
-    document.documentElement.className = saturation;
-}
 function saturationAdjust() {
         document.body.classList.add('desaturate');
 }
