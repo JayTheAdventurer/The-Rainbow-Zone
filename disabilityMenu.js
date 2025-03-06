@@ -4,10 +4,10 @@ function setTheme(themeName) {
     document.documentElement.className = themeName;
 }// function to toggle between light and dark theme
 function toggleTheme() {
-   if (localStorage.getItem('theme') === 'theme-dark'){
-       setTheme('theme-dark');
-   } else {
+   if (localStorage.getItem('theme') === 'theme-light'){
        setTheme('theme-light');
+   } else {
+       setTheme('theme-dark');
    }
 }// Immediately invoked function to set the theme on initial load
 (function () {
