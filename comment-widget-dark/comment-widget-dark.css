@@ -52,6 +52,45 @@
         #c_leftButton - The left <button>
         #c_rightButton - The right <button>
 */
+@font-face {font-family: 'PixelOperator';src: url(https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Fonts/pixel_operator/PixelOperator.ttf) format("truetype");}
+@font-face {font-family: 'PixelifySans';src: url(.https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Fonts/PixelifySans-VariableFont_wght.ttf) format("truetype");}
+@font-face {font-family: 'SixtyFour';src: url(https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Fonts/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf) format("truetype");}
+@font-face {font-family: 'PixelOperatorHBSC';src: url(https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Fonts/pixel_operator/PixelOperatorHBSC.ttf) format("truetype");}
+
+:root{
+    --bg-color:#222034; /*Dark bg for main page, dark boxes*/
+    --div--color:#2e171e;
+    --innerbox-color:#ffffff; /*color for content boxes, set to white for now.*/
+
+    /*Text*/
+    --title-color: #CF595A;
+    --light-text: #ffffff;
+    --link-color: #6191a9;
+    --link--visited: #6C62A9;
+    --link--hover: #CF629B;
+    --text--footer: #e5da61;
+    --text-footer-2: #8f62a9;
+    --text-color-2: #cf9d5a;
+    --text-color-3: #449081;
+    --tritone-1: #252966;
+    --tritone-2: #57d3d6;
+}
+
+.theme-light{
+    --div--color: #beb5e2;
+    --bg-color: #6C62A9;
+    #c_inputDiv{background-color: #beb5e2; color: var(--tritone-1); font-weight: 600;}
+    .innerbox h2, p{color: #1f1947;}
+    footer p{ color: white!important;}
+
+    #c_widget button, #c_widget input[type=submit]{color: white; background-color: #6C62A9;}
+    .c-text{color: white!important;}
+    #c_widgetTitle{ color: white!important;}
+    .c-comment{background-color: #beb5e2;}
+    .c-name{color: var(--tritone-1); font-weight: 700;}
+    .c-text{background-color: #252966;}
+
+}
 
 /* Main */
 #c_widget {
@@ -59,26 +98,27 @@
     height: 100%;
     overflow: auto;
     padding: 20px;
-    background-image: url('sparkle-bg.gif'); /* F2U background provided by https://sadgrl.online/webmastery/downloads/tiledbgs */
+    background-image: none; /*url('https://jaytheadventurer.github.io/The-Rainbow-Zone/comment-widget-dark/sparkle-bg.gif');  F2U background provided by https://sadgrl.online/webmastery/downloads/tiledbgs */
     background-attachment: fixed;
-    font-family: 'Courier New';
-    font-size: 16px;
+    font-family: 'PixelOperator';
+    font-size: 22px;
     color: white;
 }
 
 #c_widget button, #c_widget input[type=submit] {
     padding: 4px;
-    font-family: 'Courier New';
+    font-size: 22px;
+    font-family: 'PixelifySans';
     text-decoration: none;
 	text-align: center;
     text-transform: uppercase;
-    background-color: black;
-    color: #B766FF;
+    background-color: var(--tritone-1);
+    color: var(--link--hover);
     border: 1px solid white;
 }
 #c_widget button:hover, #c_widget input[type=submit]:hover {
     color: white;
-    border: 1px solid #B766FF;
+    border: 1px solid var(--link--visited);
 }
 #c_widget button:disabled, #c_widget input[type=submit]:disabled {opacity: 60%;}
 #c_widget button:disabled:hover, #c_widget input[type=submit]:disabled:hover {
@@ -90,8 +130,8 @@
 #c_inputDiv {
     margin-bottom: 15px;
     padding: 10px;
-    background-color: black;
-    border: 2px solid white;
+    background-color: #6f3e70;
+    border: 5px double var(--title-color);
 }
 
 #c_widgetTitle {
@@ -101,13 +141,27 @@
     text-transform: uppercase;
     font-style: italic;
     font-weight: bold;
-    text-align: right;
-    background-color: #2D0B52;
+    text-align: left;
+    text-shadow:
+    -2px -2px 0 #252966,  
+    2px -2px 0 #252966,
+    -2px 2px 0 #252966,
+    2px 2px 0 #252966;
+    background: linear-gradient(
+        to right,
+        var(--title-color),
+        var(--text-color-2),
+        var(--text--footer),
+        var(--text-color-3),
+        var(--link-color),
+        var(--text-footer-2),
+        var(--link--hover)
+    );
 }
 
 .c-inputWrapper {
     display: block;
-    text-align: right;
+    text-align: left;
 }
 .c-input {
     padding: 4px;
@@ -115,17 +169,29 @@
     border: 1px solid #2D0B52;
 	outline: none;
 }
-.c-input:focus {border: 1px solid #B766FF;}
+.c-input:focus {border: 1px solid var(--light-text);}
 
 .c-textInput {
     width: calc(100% - 10px);
-    max-width: 900px;
+    max-width: 100%;
     resize: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'PixelOperator';
+    background: linear-gradient(
+        #cf595b5d,
+        #cf9d5a5d,
+        #e5da615d,
+        #4490815d,
+        #6191a95d,
+        #6C62A95d,
+        #CF629B5d);
 }
 #c_submitButton {
     display: block; 
-    margin-left: auto; 
-    margin-right: 0;
+    margin-left: 0; 
+    margin-right: auto;
 }
 #c_replyingText {
     color: white;
@@ -137,7 +203,7 @@
     margin-bottom: 15px;
     padding: 10px;
     border: 2px solid white;
-    background-color: #2D0B52; 
+    background-color: #6f3e70; 
 }
 .c-reply {
     display: block;
@@ -160,7 +226,7 @@
 .c-name {
     display: inline-block;
     margin: 0;
-    margin-right: 10px;
+    margin-left: -80%;
     padding: 0;
     text-transform: uppercase;
     font-weight: bold;
@@ -180,11 +246,11 @@
     margin-left: -10px;
     margin-right: -10px;
     padding: 10px;
-    font-family: Verdana;
-    font-size: 14px;
+    font-family: 'PixelOperator';
+    font-size: 22px;
     text-align: justify;
     color: white;
-    background-color: black;
+    background-color: #222034;
 }
 
 /* Pagination */
@@ -200,4 +266,10 @@
 .c-paginationButton {
     margin-right: 4px;
     margin-left: 4px;
+}
+@media only screen and (max-width:1115px){
+    .c-name{margin-left: -67%;}
+}
+@media only screen and (max-width:700px){
+    .c-name{margin-left: -60%;}
 }

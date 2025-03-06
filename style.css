@@ -1,9 +1,9 @@
 /*fonts n imports*/
 
-@font-face {font-family: 'PixelOperator';src: url(Assets/Fonts/pixel_operator/PixelOperator.ttf) format("truetype");}
-@font-face {font-family: 'PixelifySans';src: url(Assets/Fonts/PixelifySans-VariableFont_wght.ttf) format("truetype");}
-@font-face {font-family: 'SixtyFour';src: url(Assets/Fonts/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf) format("truetype");}
-@font-face {font-family: 'PixelOperatorHBSC';src: url(Assets/Fonts/pixel_operator/PixelOperatorHBSC.ttf) format("truetype");}
+@font-face {font-family: 'PixelOperator';src: url(https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Fonts/pixel_operator/PixelOperator.ttf) format("truetype");}
+@font-face {font-family: 'PixelifySans';src: url(https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Fonts/PixelifySans-VariableFont_wght.ttf) format("truetype");}
+@font-face {font-family: 'SixtyFour';src: url(https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Fonts/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf) format("truetype");}
+@font-face {font-family: 'PixelOperatorHBSC';src: url(https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Fonts/pixel_operator/PixelOperatorHBSC.ttf) format("truetype");}
 
 /*Main Vibe*/
 :root{
@@ -53,6 +53,7 @@
 .text{color: var(--tritone-1);}
 .pixelboard{background-color: #1f1947;}
 .headabout{color: var(--tritone-1); background: #d4d1ad;}
+.shitwemake{color: white; background: #1f1947; background-image: none;}
 p{font-weight: 600;}
 .buttonstyle button{color: #ac3232; background-color: #d4d1ad;}
 .topmenu{background-color: #1f1947;}
@@ -725,7 +726,7 @@ footer p{
     .solobar-content { width: 100%; padding: 0px; margin: 0px; }
     .soloinnerbox { padding: 20px 15px; }
 
-    .buttonstyle{display: flex; flex-direction: column; text-align: center; vertical-align: middle; padding: 10px;}
+    .buttonstyle{display: flex; flex-direction: column; text-align: center; vertical-align: middle; padding: 10px; height: 120px;}
     .buttonstyle button{margin-bottom: 3px;}
     .buttonstyle img{display: none;}
 
@@ -755,6 +756,8 @@ footer p{
     .solo-sidebar{width: 100%; min-width: auto;}
     #doublebar{width: 100%; margin: 5px 0px;}
     .topmenu a { margin: 5px 5px;}
+
+    .buttonstyle{height: 120px;}
 
     .slideshow{width: 400px;}
     .mySlides{width: 375px;}

@@ -15,7 +15,7 @@
         <meta property="og:type" content="website"> 
         <title>Guestbook - ⋒★The Rainbow Zone★⋒</title>
         <link href="style.css" rel="stylesheet" type="text/css" media="all">
-        <link rel="icon" type="gif" href="/The-Rainbow-Web/Assets/Rainbow/rainbow sona nobg.gif">
+        <link rel="icon" type="gif" href="Assets/Rainbow/rainbow sona nobg.gif">
     </head>
 
     <body>
@@ -33,6 +33,27 @@
 
             <div id="leftbar"><!--Leftbar starts here-->
                 <div class="contentbox"><!--Content Box starts-->
+
+                    <div class="innerbox"><!--disability menu starts-->
+                        <div class="buttonstyle">
+                            <button id="switch" onclick="toggleTheme()">Switch Theme</button>
+                            <button onclick="saturationAdjust()">Greyscale</button>
+                            <button onclick="saturationColor()">Color</button>
+                            <script src="saturation.js"></script>
+                            <script src="disabilityMenu.js"></script>
+                        </div>
+                        
+                    
+                        <div class="centerbutton">
+                            <div class="buttonstyle freeze">
+                                <img style="margin-right: 5px;" src="Assets/UI-UX/heart.gif" alt="">
+                                <button onclick="freezegifs()">pause gifs</button>
+                                <button onclick="resumegifs()">play gifs</button>
+                                <img style="margin-left: 5px;" src="Assets/UI-UX/heart.gif" alt="">
+                                <script src="freezegifs.js"></script>
+                            </div>
+                        </div>
+                    </div><!--disability menu ends-->
     
                     <div class="innerbox"> <!--box 1 begins-->
                         <div>
@@ -41,7 +62,7 @@
                         </div>                               
                     </div>
                     <!--box 1 ends-->
-                    <img class="dividergif" src="Assets/Rainbow/rainbow divider border h25.gif" alt="gif divider 1">
+                    <img class="dividergif freeze" src="Assets/Rainbow/rainbow divider border h25.gif" alt="">
                     
                     <div class="innerbox"><!--box 2 begins-->
                             <div>
@@ -51,17 +72,19 @@
                     </div>
                     <!--box 2 ends-->
 
-                    <img class="dividergif" src="Assets/Rainbow/rainbow divider border h25.gif" alt="gif divider 1">
+                    <img class="dividergif freeze" src="Assets/Rainbow/rainbow divider border h25.gif" alt="">
     
                 </div><!--Content Box ends-->
                 
             </div> <!--Leftbar Ends-->
     
             
-            <div id="centerbar">
+            <div id="doublebar">
+                <div class="innerbox">
+                    <div id="c_widget"></div>
+                    <script src="comment-widget-dark/comment-widget.js"></script>
+                </div>
                 
-                <div id="c_widget"></div>
-                <script src="comment-widget-dark/comment-widget.js"></script>
                 
             </div>
             <!--Center Bar ends-->
