@@ -63,7 +63,8 @@ document.getElementById('headerlinks').innerHTML =
                 <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/button wave/marcus pride button.gif" alt="">
                 <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/button wave/plural flag wave const.gif" alt="Plural Treblesand Waving Flag">
                 <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/button wave/pride button wave.gif" alt="Pride Waving Flag">
-                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow spiral button.gif" alt="Pride Waving Flag">
+                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow spiral button.gif" alt="Rainbow Spiral">
+                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow optical illusion button.gif" alt="Rainbow Illusion">
             </div>
             <div class="blinkie freeze">
                 <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/pride hell yeah.gif" alt="Pride? Hell Yeah">
