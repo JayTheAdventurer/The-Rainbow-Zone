@@ -18,7 +18,7 @@ document.getElementById('headerlinks').innerHTML =
 
                 <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/journal.html" alt="Journal and Updates">Journal</a>
 
-                <a href="" alt="Links, buttons, and our friends' sites">https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/linkpage.html</a>
+                <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/linkpage.html" alt="Links, buttons, and our friends' sites">Links</a>
 
                 <a href="" alt="The rainbow zone entrance link">Enter</a>
             </div>
@@ -58,18 +58,22 @@ document.getElementById('headerlinks').innerHTML =
 
             <!-- buttons, blinkies, stamps, etc -->
             <div class="button freeze">
-                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/plural hell yea.gif" alt="Plural? Hell Yeah!">
-                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/plural symbol rainbow.gif" alt="Rainbow Plural Treblesand and Rings">
+                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/plural hell yea.gif" alt="">
+                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/plural symbol rainbow.gif" alt="">
                 <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/button wave/marcus pride button.gif" alt="">
-                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/button wave/plural flag wave const.gif" alt="Plural Treblesand Waving Flag">
-                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/button wave/pride button wave.gif" alt="Pride Waving Flag">
-                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow spiral button.gif" alt="Rainbow Spiral">
-                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow optical illusion button.gif" alt="Rainbow Illusion">
+                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/button wave/plural flag wave const.gif" alt="">
+                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/button wave/pride button wave.gif" alt="">
+                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow spiral button.gif" alt="">
+                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow optical illusion button.gif" alt="">
+                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow owo blinkie.gif" alt="">
+                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow uwu blinkie" alt="">
             </div>
             <div class="blinkie freeze">
-                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/pride hell yeah.gif" alt="Pride? Hell Yeah">
-                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/pride hell yeah dark.gif" alt="Pride? Hell Yeah">
+                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/pride hell yeah.gif" alt="">
+                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/pride hell yeah dark.gif" alt="">
                 <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/rainbow lover.gif" alt="">
+                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/fish-e.gif" alt="">
+                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/i love neon.gif" alt="">
                 <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/taste the rainbow marcus blinkie.gif" alt="">
             </div>
             
