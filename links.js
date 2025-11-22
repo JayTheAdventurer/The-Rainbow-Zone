@@ -18,7 +18,7 @@ document.getElementById('headerlinks').innerHTML =
 
                 <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/journal.html" alt="Journal and Updates">Journal</a>
 
-                <a href="" alt="Links, buttons, and our friends' sites">Link Page</a>
+                <a href="" alt="Links, buttons, and our friends' sites">https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/linkpage.html</a>
 
                 <a href="" alt="The rainbow zone entrance link">Enter</a>
             </div>
