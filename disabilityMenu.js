@@ -18,7 +18,7 @@ function toggleTheme() {
    }
 })();
 
-//Set saturatoin 
+//Set saturation 
 function saturationAdjust() {
         document.body.classList.add('desaturate');
 }

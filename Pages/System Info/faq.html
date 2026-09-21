@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <base href="https://jaytheadventurer.github.io/The-Rainbow-Zone/">
+
+        <meta property="og:title" content="FAQ - The Rainbow Zone"> 
+        <meta property="og:description" content="Frequently Asked Questions."> 
+        <meta property="og:image" content="Assets/rainbow button 256.gif"> 
+        <meta property="og:url" content="therainbowzone.com"> 
+        <meta property="og:type" content="website"> 
+        <title>FAQ - ⋒★The Rainbow Zone★⋒</title>
+        <link href="style.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="icon" type="gif" href="Assets/Rainbow/rainbow sona nobg.gif">
+    </head>
+
+    <!--Header Starts-->
+    <div id="headerlinks">
+            <script src="links.js"></script>
+            <noscript>
+                <p style="text-align: center;">This main menu uses JS to display the navigation on all pages, so it is easy to update. 
+                   Use the <a href="Pages/sitemap.html">sitemap</a> to navigate if you have JS disabled.</p>
+              </noscript>
+        </div>
+
+    <div class="solo-sidebar"> <!--Solo Sidebar Starts begins-->
+        <div class="contentbox">  <!--Content Box begins-->
+
+            <div class="innerbox"><!--disability menu starts-->
+                <div class="buttonstyle">
+                    <button id="switch" onclick="toggleTheme()">Switch Theme</button>
+                    <button onclick="saturationAdjust()">Greyscale</button>
+                    <button onclick="saturationColor()">Color</button>
+                    <script src="saturation.js"></script>
+                    <script src="disabilityMenu.js"></script>
+                </div>
+                
+            
+                <div class="centerbutton">
+                    <div class="buttonstyle freeze">
+                        <img style="margin-right: 5px;" src="Assets/UI-UX/heart.gif" alt="">
+                        <button onclick="freezegifs()">pause gifs</button>
+                        <button onclick="resumegifs()">play gifs</button>
+                        <img style="margin-left: 5px;" src="Assets/UI-UX/heart.gif" alt="">
+                        <script src="freezegifs.js"></script>
+                    </div>
+                </div>
+            </div><!--disability menu ends-->
+            
+            <div class="innerbox"> <!--Box 1 begins-->
+
+                <h2>Frequently Asked Questions</h2><br><br>
+                <img class="dividergif freeze" style="height: 10px; border-radius: 0;" src="Assets/Rainbow/rainbow divider border h25.gif" alt="">
+                
+                <br><br><br>
+                <p id="question">Why Rainbow Parade?</p>
+                <p>We ended up landing on this name because we're a group of headmates that vary differently from each other. 
+                    Each one of us are vibrant and unique, just like the colors of the world. We even have our own favorite colors 
+                    that differ from each other.
+                </p> <br>
+                <p>We also have a system mascot! A little creature named Rainbow and they represent us all.</p><br><br><br>
+
+                <p id="question">What type of system are ya'll?</p>
+                <p>We're kinda sure that we're traumagenic in nature, though many of us have seperate memories from before the trauma.
+                    In that case, maybe we're a mixed-origin system? We're not quite sure what we are regardless of whether that's true. 
+                    Either way, the past trauma [and sometimes recent trauma] impacts us in a very big way, including how we function.
+                </p><br><br><br>
+
+                <p id="question">What does your headspace look like?</p>
+                <p>We exist on different "layers" or "realms" from each other. There's a lot of them, and each layer has
+                    headmates that live there. We have many layers, too many to list here. Primarily, the main fronters are from four areas:
+                    The Underground, the Border, the Forest, and the Dreamscape. Each one of them have a fully realized world/space to them.
+                    They are also considered dangerous areas to enter unless a headmate is prepared or lives in said environment.
+                </p><br>
+                <p>The Underground is a post-apocalyptic magical world. Jay and Sammy originate from there.</p><br>
+                <p>The Border is an extension of the underground, abandoned buildings litter the grey landscape. Nurse is from here.</p><br>
+                <p>The Dreamscape is a space-like layer found below the border. It's where all of our dreams play out when we sleep.
+                    Greenstar, Bluestar, and Nathan are from here.
+                </p><br>
+                <p>The Forest is a magical place where many memories are contained. Gabe lives here.</p><br>
+                <p>When we want to front or be social, there is an apartment lobby that we go to. The fronter sits
+                    at the computer, and any co-fronters watch them interact.
+                </p><br><br><br>
+
+                <p id="question">Where is [Headmate]'s page? Why are they not listed in the system list?</p>
+                <p>Some of us are shy, or don't want to publically be known by others. Some of them feel as if they 
+                    need a full page to describe themselves, or they want it to be an encounter through the 
+                    <a class="smallLink" href="">Rainbow Zone</a>. 
+                    If you want a comprehensive list of all headmates that have a page, please see our 
+                    <a class="smallLink" href="Pages/sitemap.html">site map</a>.
+                </p><br><br><br>
+
+                <p id="question">Can we ask more questions than what's listed here?</p>
+                <p>Feel free to! We like talking about our plurality to folks.</p><br><br><br>
+
+               
+            </div> <!--Box 1 ends-->
+        </div><!--Contentbox ends-->
+    </div><!--Solo Sidebar ends-->
+
+    <style>
+        .theme-light{#question{color: #8f62a9;}}
+        .smallLink{font-family: 'PixelOperator';src: url(https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Fonts/pixel_operator/PixelOperator.ttf);}
+        #question{font-size: 28px; line-height: 1; color: #e5da61;}
+    </style>
+
+    <div id="footerlink_button">
+        <script src="links.js"></script>
+        <noscript>
+            <p style="text-align: center;"><a href="#headerlinks">back to top</a><br>This bottom menu uses JS to display the navigation on all pages, so it is easy to update. 
+               Use the <a href="Pages/sitemap.html">sitemap</a> to navigate if you have JS disabled,<br> and the <a href="">links</a> page if you are interested in buttons.</p>
+          </noscript>
+      </div>
+
+</html>

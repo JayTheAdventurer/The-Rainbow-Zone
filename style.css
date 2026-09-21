@@ -79,7 +79,7 @@ body{
     font-family: var(--primary-font);
     line-height: 1.5;
     margin: 0px;
-    cursor: url(https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/UI-UX/cursor.gif), auto;
+    cursor: url(https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/UI-UX/cursor.gif), auto !important;
 
     line-height: 1.2;
     word-spacing: 1px;
@@ -773,7 +773,7 @@ footer p{
     border: 2px solid var(--bg-color); 
     background: 
     linear-gradient(
-        45deg, 
+        to bottom, 
         #ac3232,
         #df5026,
         #fbf236,

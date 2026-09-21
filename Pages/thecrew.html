@@ -28,7 +28,7 @@
     </div>
     <!--Header Ends-->
 
-    <div class="solo-sidebar"> <!--Solo Sidebar Starts begins-->
+    <div class="solo-sidebar"> <!--Solo Sidebar begins-->
 
         <div class="contentbox">  <!--Content Box begins-->
 
@@ -86,11 +86,11 @@
                 </div><!--Self Art links 2 end-->
                 <br><br>
                 <p>Click to open and close!</p>
-                <div id="divInfo">
+                <div id="divInfo"> <!--Display Box begins-->
                     <div id="infoGabe" style="display: none;">
                         <h2>Hello</h2>
                         <div id="innerInfoGabe"> 
-                            <p>My name is Gabe, and I like chilling with my friends and playing video games. 
+                            <p>My name is Gabe, and I'm a dude who likes chilling with my friends and playing video games. 
                                 I'm pretty laid back. If we are streaming games, I'm probably involved in some kind of way.</p><br>
                             <p>I live in a magical forrest, go figure. I am a gatekeeper, trauma holder and protector, if we're talkin about basic system roles.</p><br>
                             <p>Friends: Blue, Green, Terra, Jay, Sammy, Nurse, Nathan, AJ</p><br>
@@ -99,7 +99,8 @@
                     <div id="infoBluestar" class="blue" style="display: none;">
                          <h2 style="background-color: var(--tritone-2);">Hi!</h2>
                         <div id="innerInfoBlue"> 
-                            <p>My name is Marcus Watson, and my twin shares the same name. So you can call me Bluestar.
+                            <p>My name is Marcus Watson, and my twin shares the same name. So you can call me Bluestar. 
+                                My pronouns are he/him. 
                                 I am one of 14 siblings in a big family, and my twin and I are the eldest in the family.
                                 I am the one that primarily coded the site and designed the UI. 
                                 I also am the one who probably made any other coding endeavor you may see from us.  
@@ -112,25 +113,26 @@
                     <div id="infoJay" style="display: none;">
                         <h2>Howdy!</h2>
                         <div id="innerInfoJay">
-                            <p>My name is Jay The Adventurer. I am the main 3d modeler of the group, and I like to sing and draw too. 
+                            <p>My name is Jay The Adventurer. I'm tansmasc and go by he/him pronouns. 
+                                I am the main 3d modeler of the group, and I like to sing and draw too. 
                                 I'm a part of an adventuring squad that are like a family to me, even when we piss eachother off lol. 
                                 Right now, I'm visiting the star twins, their sister, and all their neighbors. They're pretty chill.</p> <br>
                             <p>In regards to system roles? We don't care about tiles that much in the system, but I suppose I am a protector, trauma holder, and gatekeeper.</p><br>
-                            <p>I'm currently trying to 3d model everyone who wants an avatar. VR chat is fun to explore.</p><br>
+                            <p>I'm currently trying to 3d model everyone in our system who wants an avatar. VR chat is fun to explore.</p><br>
                         </div>
                     </div>
                     <div id="infoNurse" style="display: none;">
                         <h2>hi hi~</h2>
                         <div id="innerInfoNurse">
-                            <p>You can call me nurse. I'm a protector and trauma holder around here, if anyone cares about titles.</p><br>
-                            <p>I love to sing, just like Jay does. Singing opera is so much fun, it's somehting that's challenging and scratches that singing itch I have.</p><br>
+                            <p>You can call me nurse. She/her. I'm a protector and trauma holder around here, if anyone cares about titles.</p><br>
+                            <p>I love to sing, just like Jay does. Singing opera is so much fun, it's something that's challenging and scratches that singing itch I have.</p><br>
                             <p>I may be a bit bold, I'm all about expressing myself in the best way possible. It's the best way to live life, afterall!</p><br>
                         </div>
                     </div>
                     <div id="infoSammy" style="display: none;">
                         <h2>hey!</h2>
                         <div id="innerInfoSammy">
-                            <p>My name is Sammy The Crayon Mage and I LOVE to draw. Most of our art is drawn by Bluestar, Jay or I!</p><br>
+                            <p>My name is Sammy The Crayon Mage (she/her) and I LOVE to draw. Most of our art is drawn by Bluestar, Jay or I!</p><br>
                             <p>I am a caretaker and protector if anyone cares about that stuff.</p><br>
                             <p>I'm the oldest in our adventuring squad. Jay is like a little brother to me!</p><br>
                             <p>Hobbies: Drawing, making crafts, cooking, and hanging out with my friends</p><br>
@@ -149,15 +151,20 @@
                         <h2>Good Morning!</h2>
                         <i style="color: white; font-size: 18px;">*or happy timezone, whatever it may be.</i>
                         <div id="innerInfoNathan">
-                            <p>My name is Nathan, and I am a caretaker and main gatekeeper around here.</p><br>
+                            <p>My name is Nathan (he/him), and I am a caretaker and main gatekeeper around here.</p><br>
                             <p>I am a morning person and I love a cup of tea in the morning. I also love to bake and make desserts! 
                                 I really can't help organizing things, it's a habit of mine.</p><br>
                             <p>My hobbies include baking, drawing, going on long walks, making drinks, and more!</p><br>
+                        </div>
                     </div>
-                </div>
+                </div> <!--Display Box ends-->
+
+            </div><!--Box 1 ends-->
+        </div><!--Contentbox ends-->
+    </div><!--Solo Sidebar ends-->
 
                 <style>
-                    .theme-light {#infoSammy h2{color: white;} #infoGreenstar, #infoGreenstar h2{color: white;} #infoNathan h2, #innerInfoNathan{color: white;}}
+                    .theme-light {#infoGabe p {color: white;} #infoSammy h2{color: white;} #infoGreenstar, #infoGreenstar h2{color: white;} #infoNathan h2, #innerInfoNathan{color: white;}}
                     #infoGabe{background-color: #74d674; padding: 2px 3px;}
                     #infoGabe h2{background-color: #277627; }
                     #innerInfoGabe{ background-color: #277627; padding: 2px;}
@@ -199,28 +206,77 @@
                         
                         var x = document.getElementById("divInfo");
                         const y = num;
-
+                        
                         switch(y){
                             case(0):
                             x = document.getElementById(gabe);
+
+                            document.getElementById(blue).style.display = "none";
+                            document.getElementById(jay).style.display = "none";
+                            document.getElementById(nurse).style.display = "none";
+                            document.getElementById(sammy).style.display = "none";
+                            document.getElementById(green).style.display = "none";
+                            document.getElementById(nathan).style.display = "none";
                             break;
                             case(1):
                             x = document.getElementById(blue);
+
+                            document.getElementById(gabe).style.display = "none";
+                            document.getElementById(jay).style.display = "none";
+                            document.getElementById(nurse).style.display = "none";
+                            document.getElementById(sammy).style.display = "none";
+                            document.getElementById(green).style.display = "none";
+                            document.getElementById(nathan).style.display = "none";
                             break;
                             case(2):
                             x = document.getElementById(jay);
+
+                            document.getElementById(blue).style.display = "none";
+                            document.getElementById(gabe).style.display = "none";
+                            document.getElementById(nurse).style.display = "none";
+                            document.getElementById(sammy).style.display = "none";
+                            document.getElementById(green).style.display = "none";
+                            document.getElementById(nathan).style.display = "none";
                             break;
                             case(3):
                             x = document.getElementById(nurse);
+
+                            document.getElementById(blue).style.display = "none";
+                            document.getElementById(jay).style.display = "none";
+                            document.getElementById(gabe).style.display = "none";
+                            document.getElementById(sammy).style.display = "none";
+                            document.getElementById(green).style.display = "none";
+                            document.getElementById(nathan).style.display = "none";
                             break;
                             case(4):
                             x = document.getElementById(sammy);
+
+                            document.getElementById(blue).style.display = "none";
+                            document.getElementById(jay).style.display = "none";
+                            document.getElementById(nurse).style.display = "none";
+                            document.getElementById(gabe).style.display = "none";
+                            document.getElementById(green).style.display = "none";
+                            document.getElementById(nathan).style.display = "none";
                             break;
                             case(5):
                             x = document.getElementById(green);
+
+                            document.getElementById(blue).style.display = "none";
+                            document.getElementById(jay).style.display = "none";
+                            document.getElementById(nurse).style.display = "none";
+                            document.getElementById(sammy).style.display = "none";
+                            document.getElementById(gabe).style.display = "none";
+                            document.getElementById(nathan).style.display = "none";
                             break;
                             case(6):
                             x = document.getElementById(nathan);
+
+                            document.getElementById(blue).style.display = "none";
+                            document.getElementById(jay).style.display = "none";
+                            document.getElementById(nurse).style.display = "none";
+                            document.getElementById(sammy).style.display = "none";
+                            document.getElementById(green).style.display = "none";
+                            document.getElementById(gabe).style.display = "none";
                             break;
 
                             default: x = document.getElementById("divInfo");
@@ -233,12 +289,7 @@
                         }
                     } 
                 </script>
-               
-            </div> <!--Box 1 ends-->
-        </div><!--Contentbox ends-->
-    </div><!--Solo Sidebar ends-->
-
-
+                
     <!--Main Footer starts-->
     <div id="footerlink_button">
         <script src="links.js"></script>
@@ -246,5 +297,5 @@
             <p style="text-align: center;"><a href="#headerlinks">back to top</a><br>This bottom menu uses JS to display the navigation on all pages, so it is easy to update. 
                Use the <a href="Pages/sitemap.html">sitemap</a> to navigate if you have JS disabled,<br> and the <a href="">links</a> page if you are interested in buttons.</p>
           </noscript>
-      </div>
+    </div>
 </html>

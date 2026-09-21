@@ -7,8 +7,8 @@ document.getElementById('headerlinks').innerHTML =
                 <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/UI-UX/sitetitle.png" alt="The rainbow zone img title">
                 
                 <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/home.html" alt="Homepage">Home</a>
-
-                <a href="" alt="About">Wtf is this?</a>
+                
+                <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/about.html" alt="About">Wtf is this?</a>
 
                 <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/creations.html" alt="Art gallery and creative interests">Creations</a>
 
@@ -65,8 +65,8 @@ document.getElementById('headerlinks').innerHTML =
                 <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/button wave/pride button wave.gif" alt="">
                 <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow spiral button.gif" alt="">
                 <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow optical illusion button.gif" alt="">
-                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow owo blinkie.gif" alt="">
-                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Rainbow/rainbow uwu blinkie" alt="">
+                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/owo blinkie.gif" alt="">
+                <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/uwu blinkie.gif" alt="">
             </div>
             <div class="blinkie freeze">
                 <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Blinkie/pride hell yeah.gif" alt="">
