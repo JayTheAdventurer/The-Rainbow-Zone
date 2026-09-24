@@ -118,6 +118,8 @@ h2{
     padding: 5px; 
 }
 
+.pixelimg{image-rendering: pixelated;}
+
 /*Text styling*/
 .txtaccess{
     line-height: 1.5;
@@ -180,7 +182,7 @@ h2{
 /*Slideshow styling*/
 
 .mySlides {display: none;}
-img {vertical-align: middle;}
+.mySlides img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow {
@@ -583,6 +585,8 @@ justifyleft{width: 50%;}
     width: 100%;
 }
 
+.topmenu img{image-rendering: pixelated;}
+
 .topmenu a{
     color: inherit;
     font-family: var(--tertiary-font);
@@ -828,6 +832,7 @@ footer p{
     .solo-sidebar{width: 100%; min-width: auto;}
     #doublebar{width: 100%; margin: 5px 0px;}
     .topmenu a { margin: 5px 5px;}
+    .topmenu img{max-width: 325px;}
 
     .buttonstyle{height: 120px;}
 

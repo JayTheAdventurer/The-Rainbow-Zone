@@ -25,6 +25,7 @@
     <body>
         <!--Header Starts-->
         <div id="headerlinks">
+            
             <script src="links.js"></script>
             <noscript>
                 <p style="text-align: center;">This main menu uses JS to display the navigation on all pages, so it is easy to update. 
@@ -32,6 +33,35 @@
               </noscript>
         </div>
         <!--Header Ends-->
+
+        <div class="artheader"><!--Self-art Header Starts-->
+            <div class="artnav"><!--Headmate Menu Starts-->
+                <p>⋆⁺₊⋆</p>
+                <a href="" style="color: #5ee5d1;"><img src="Assets/Headmate Icons/bluestar icon.png" alt="">Bluestar</a>
+                <a href="" style="color: #277627;"><img src="Assets/Headmate Icons/gabe icon.png" alt="">Gabe</a>
+                <a href="" style="color: #5fe18d;"><img src="Assets/Headmate Icons/greenstar icon.png" alt="">Greenstar</a>
+                <a href="" style="color: #bc3839;"><img src="Assets/Headmate Icons/jay icon.png" alt="">Jay</a>
+                <a href="" style="color: #6b15a2;"><img src="Assets/Headmate Icons/nathan icon.png" alt="">Nathan</a>
+                <a href="" style="color: #ae6584;"><img src="Assets/Headmate Icons/nurse icon.png" alt="">Nurse</a>
+                <a href="" style="color: #a46aa5;"><img src="Assets/Headmate Icons/sammy icon.png" alt="">Sammy</a>
+                <p>⋆⁺₊⋆</p>
+            </div>
+            <div class="artnav1"><!--Misc art Starts-->
+                <p>⋆⁺₊⋆</p>
+                <a href=""><img src="Assets/UI-UX/misc art icon.png" alt="">Miscellaneous</a>
+                <a href=""><img src="Assets/UI-UX/gift art icon.png" alt="">Gift Art</a>
+                <p>⋆⁺₊⋆</p>
+            </div>
+        </div><!--Self-art Header Ends-->
+        
+            <style>
+                .artheader{display: grid; justify-content: center;}
+                .artnav{display: flex; flex-wrap: wrap; text-align: center; justify-content: center; max-width: fit-content; margin: 25px auto 5px auto; padding: 10px 0px; background-color: rgba(0, 0, 0, 1); border: 2px solid var(--link-color);}
+                .artnav1{display: flex; flex-wrap: wrap; text-align: center; justify-content: center; max-width: fit-content; margin: 5px auto 25px auto; padding: 10px 0px; background-color: rgba(0, 0, 0, 1); border: 2px solid var(--link--hover);}
+                .artnav a, .artnav1 a{font-family: var(--secondary-font); font-size: 22px; font-weight: 700; padding: 5px 18px; color: white; text-decoration: none;}
+                .artnav p, .artnav1 p{color: white; padding: 0px 5px;}
+                .artnav img, .artnav1 img{margin: 0px 2px; width: 32px; image-rendering: pixelated;}
+            </style>
 
         <div class="barboxes"><!--Barboxes Starts-->
 
@@ -66,17 +96,6 @@
                         </div>                               
                     </div>
                     <!--box 1 ends-->
-                    <img class="dividergif freeze" src="Assets/Rainbow/rainbow divider border h25.gif" alt="">
-                    
-                    <div class="innerbox"><!--box 2 begins-->
-                            <div>
-                                <h2>Box 2L</h2>
-                                <p>text goes here!</p>
-                            </div>
-                    </div>
-                    <!--box 2 ends-->
-
-                    <img class="dividergif freeze" src="Assets/Rainbow/rainbow divider border h25.gif" alt="">
     
                 </div><!--Content Box ends-->
                 
@@ -89,39 +108,57 @@
                     
                     <div class="innerbox"> <!--box 1 begins-->
                             <div>
-                                <h2>Box 1C</h2>
-                                <p>text goes here!</p>
+                                <h2 style="text-decoration: underline;">Art Introduction</h2>
+                                
+                                <div class="introcontainer">
+                                    <div class="framecontainer">
+                                        <img class="freeze" src="Assets/Headmate Icons/jay talking icon 128 frame.gif" alt="Profile picture of Jay talking">
+                                        <b>Jay</b>
+                                    </div>
+                                    <p class="artintrotxt">
+                                          Hi! This is our collection of art that we've made for ourselves. Use the navigational menu above to
+                                          find all of our art.
+                                    </p>
+                                </div>
+                                <div class="introcontainer">
+                                    
+                                    <div class="framecontainer">
+                                        <img class="freeze" src="Assets/Headmate Icons/sammy talking icon 128 frame.gif" alt="Profile picture of Sammy talking">
+                                        <b>Sammy</b>
+                                    </div>
+                                    <p class="artintrotxt">
+                                        The art will be organized from newest to oldest, so if you want to see the progression of our art, 
+                                        start from the bottom!
+                                    </p>
+                                    
+                                </div>
+                                <div class="introcontainer">
+                                    <div class="framecontainer">
+                                        <img class="freeze" src="Assets/Headmate Icons/bluestar talking icon 128 frame.gif" alt="Profile picture of Bluestar talking">
+                                        <b>Bluestar</b>
+                                    </div>
+                                    <p class="artintrotxt">
+                                        Updates will happen bi-weekly. Also, art that is uploaded on each page is made by our main artists. 
+                                        Not every system member can draw, so pay attention to the description for the artist credit.
+                                    </p>
+                                </div>
+                                
                             </div>                               
                     </div>
-                    <!--box 1 ends-->
-                    <img class="dividergif freeze" src="Assets/Rainbow/rainbow divider border h25.gif" alt="">
-                    
-                    <div class="innerbox"><!--box 2 begins-->
-                            <div>
-                                <h2>Box 2C</h2>
-                                <p>text goes here!</p>
-                            </div>
-                    </div>
-                    <!--box 2 ends-->
-    
-                    <img class="dividergif freeze" src="Assets/Rainbow/rainbow divider border h25.gif" alt="">
-    
-                    <div class="innerbox"><!--box 3 begins-->
-                        <div>
-                            <h2>Box 3C</h2>
-                            <p>text goes here!</p>
-                        </div>
-                        
-                        
-                    </div>
-                    <!--box 3 ends-->
+                    <!--box 1 ends-->   
                 </div>
                 <!--Content Box ends-->
             </div>
             <!--Center Bar ends-->
     
-    
         </div><!--Barboxes Ends-->
+
+        <style>
+            .introcontainer{display: flex; flex-wrap: nowrap; padding: 25px 0px;}
+            .framecontainer{display: grid; margin: 0px 25px 0px 5px;}
+            .framecontainer img{width: 128px; image-rendering: pixelated;}
+            .artintrotxt{text-align: left;}
+        </style>
 
         <div id="footerlink_button">
             <script src="links.js"></script>
