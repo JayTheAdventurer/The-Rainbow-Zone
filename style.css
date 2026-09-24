@@ -96,7 +96,7 @@ a{
 }
 
 a:visited{color:var(--link--visited)}
-a:Hover{color: var(--link--hover);}
+a:Hover{color: var(--link--hover); cursor: url("https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/UI-UX/cursor hover.gif"), auto !important;}
 
 b{
     font-family: var(--secondary-font);
