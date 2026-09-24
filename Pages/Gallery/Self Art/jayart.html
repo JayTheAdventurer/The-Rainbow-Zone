@@ -58,10 +58,39 @@
 
                 <h2>Solo Box</h2><br>
                 <p>Text goes here</p>
+
+                <div class="gallerybox">
+                    <div class="jayimgbox">
+                        <img src="" alt="">
+                        <div class="artcredit">
+                            <img src="" alt="">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="jaychatbox">
+                        <div class="framecontainer">
+                            <img src="Assets/Headmate Icons/jay talking icon 128 frame.gif" alt="">
+                        </div>
+                        <div class="jayarttxt">
+                            <p>Text goes here.</p>
+                        </div>
+                    </div>
+                    
+                </div>
                
             </div> <!--Box 1 ends-->
         </div><!--Contentbox ends-->
     </div><!--Solo Sidebar ends-->
+
+    <style>
+        .jaychatbox{display: flex; flex-wrap: nowrap; padding: 25px 0px; align-items: center;}
+        .framecontainer{display: grid; margin: 0px 25px 0px 25px;}
+        .framecontainer img{width: 128px; image-rendering: pixelated;}
+        .jayarttxt{display: flex; text-align: left; padding: 0px 10px;}
+        .jayarttxt p{font-size: 28px; line-height: 1.2; font-weight: 600;}
+        
+        @media only screen and (max-width:700px){.gallerybox{width: 100%; min-width: auto; word-wrap: break-word;} .jaychatbox{display: grid; place-items: center;}}
+    </style>
 
     <div id="footerlink_button">
         <script src="links.js"></script>

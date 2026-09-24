@@ -58,8 +58,8 @@
                 .artheader{display: grid; justify-content: center;}
                 .artnav{display: flex; flex-wrap: wrap; align-items: center; text-align: center; justify-content: center; max-width: fit-content; margin: 25px auto 5px auto; padding: 10px 0px; background-color: rgba(0, 0, 0, 1); border: 2px solid var(--link-color);}
                 .artnav1{display: flex; flex-wrap: wrap; align-items: center; text-align: center; justify-content: center; max-width: fit-content; margin: 5px auto 25px auto; padding: 10px 0px; background-color: rgba(0, 0, 0, 1); border: 2px solid var(--link--hover);}
-                .artnav a, .artnav1 a{font-family: var(--secondary-font); font-size: 22px; font-weight: 700; padding: 5px 18px; color: white; text-decoration: none;}
-                .artnav p, .artnav1 p{color: white; padding: 0px 5px;}
+                .artnav a, .artnav1 a{display: flex; font-family: var(--secondary-font); font-size: 22px; font-weight: 700; padding: 5px 18px; color: white; text-decoration: none;}
+                .artnav p, .artnav1 p{color: white; padding: 0px 5px 5px 5px;}
                 .artnav img, .artnav1 img{margin: 0px 5px; width: 32px; image-rendering: pixelated;}
 
                  @media only screen and (max-width:700px){.artnav, .artnav1{display: grid; place-items: center;}}
@@ -175,7 +175,7 @@
             .artintrotxt p{font-size: 28px; line-height: 1.2; font-weight: 600;}
 
             @media only screen and (max-width:1115px){}
-            @media only screen and (max-width:700px){.mainartbox{display: grid; justify-items: center; width: 100%; min-width: auto;} .introcontainer{display: grid; place-items: center;} .artintrotxt{text-align: center;} #headerarttxt h2{text-wrap: wrap;}}
+            @media only screen and (max-width:700px){.mainartbox{display: block; width: 100%; min-width: auto; word-wrap: break-word;} .introcontainer{display: grid; place-items: center;} .artintrotxt{text-align: center;} #headerarttxt h2{text-wrap: wrap;}}
         </style>
 
         <div id="footerlink_button">
