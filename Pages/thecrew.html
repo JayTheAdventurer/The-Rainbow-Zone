@@ -169,6 +169,14 @@
 
                 <style>
                     .theme-light {#infoGabe p {color: white;} #infoSammy h2{color: white;} #infoGreenstar, #infoGreenstar h2{color: white;} #infoNathan h2, #innerInfoNathan{color: white;}}
+                    
+                    .pfpcontainer{display: flex;align-items: center;text-align: center; width: 768px; margin: auto;}
+                    .pfpbox img{text-align: center; width:100%; max-height: 256px; object-fit: contain;}
+                    
+                    .innerworldcontainer{display: flex; align-items: center; text-align: center; width: 768px; margin: auto;}
+                    .innerworldcontainer img{text-align: center; width:384px; height: 200px; object-fit: contain; margin: 0 5px; align-items: center;}
+                    .innerworldcontainer p{font-size: 22px;}
+                    
                     #infoGabe{background-color: #74d674; padding: 2px 3px;}
                     #infoGabe h2{background-color: #277627; }
                     #innerInfoGabe{ background-color: #277627; padding: 2px;}
@@ -196,6 +204,9 @@
                     #innerInfoGreenstar{background-color: #385c52; padding: 2px;}
                     #infoNathan{background-color: #6b15a2; padding: 2px;}
                     #innerInfoNathan{padding: 2px;}
+
+                    @media only screen and (max-width:1115px){.pfpcontainer{display: flex; align-items: center; margin: auto; max-width: fit-content;} .pfpcontainer img{image-rendering: pixelated;}}
+                    @media only screen and (max-width:700px){.pfpcontainer, .innerworldcontainer{display: grid; place-items: center; margin: 0px; width: 100%; margin: auto;} .innerworldcontainer img{max-width: 220px; margin: 0;}}
                 </style>
                 <script>
                     var gabe = "infoGabe";

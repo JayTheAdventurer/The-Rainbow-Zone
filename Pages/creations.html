@@ -130,21 +130,23 @@
         </div><!--Solo Sidebar ends-->
 
         <style>
-            .artscontainer{display: flex; align-items: center; text-align: center;}
-            .artscontainer img{width: 225px; margin: 0 10px;}
-            .artscontainer p{font-size: 22px;}
+            /* Creations Stuff we made text*/
+            .stuffmade{display: flex; flex-wrap: wrap; justify-content: center; padding: 2px auto; margin: 10px auto 0 auto; width: 100%;}
+            .stuffmade p{font-family: var(--tertiary-font); font-size: 25px; text-align: center; padding-top: 10px;}
 
-            .craftscontainer{display: flex; align-items: center; text-align: center; width: 768px;}
+            .artscontainer, .craftscontainer{display: flex; align-items: baseline; text-align: center; justify-items: center; margin: auto;}
+            .artscontainer img{max-width: 175px; height: auto; margin: 0 10px;}
+            .artscontainer p, .craftscontainer p{font-size: 22px;}
 
-            .craftscontainer img{width: 225px; margin: 0 20px; align-items: center;}
-            .craftscontainer p{font-size: 22px;}
+            .craftscontainer img{max-width: 160px; height: auto; margin: 0 20px; }
             
             @media only screen and (max-width:1115){
-                .pfpcontainer, .artscontainer, .craftscontainer{display: flex; align-items: center;margin: auto; max-width: fit-content;}
-                .craftscontainer img{width:100%;}
+                .artscontainer, .craftscontainer{margin: auto;}
+                .artscontainer img, .craftscontainer img{max-width:110px; height: auto;}
             }
             @media only screen and (max-width:700px){
-                .artlink img{max-width: 180px !important;}
+                .artlink{width: 100%; margin: auto;}
+                .artscontainer img, .craftscontainer img{max-width: 180px}
                 .stuffmade p {display: flex; flex-wrap: wrap; word-wrap: break-word; margin: 0px;}
                 .artscontainer, .craftscontainer{display: grid; place-items: center; margin: 0;}
                 .artscontainer a, craftscontainer a{margin: 0; padding: 0;}
