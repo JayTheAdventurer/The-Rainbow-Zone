@@ -691,7 +691,7 @@ footer p{
   }
 
 /*scrollbar*/
-* { scrollbar-width: thin; 
+* { scrollbar-width: 15px; 
     scrollbar-color: #ac3232 var(--bg-color);}
 *::-webkit-scrollbar { width: 15px; }
 *::-webkit-scrollbar-track { background: var(--bg-color); border: 2px solid var(--light-text); border-radius: 4px; }
