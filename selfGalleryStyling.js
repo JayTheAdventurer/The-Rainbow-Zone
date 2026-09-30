@@ -13,7 +13,7 @@ let enlarged=0;
             element = elements[index];
 
             // Remove the element's inline display styling
-            element[i].style.display = '';
+            element.style.display = '';
             computedDisplay = window.getComputedStyle(element, null).getPropertyValue('display');
 
             if (computedDisplay === 'none' && width <= WIDTH_LIMIT) {
