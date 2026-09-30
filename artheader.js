@@ -1,4 +1,4 @@
-document.getElementByClassName('artheader').innerHTML =
+document.getElementById('artheader').innerHTML =
 `
     
     <div class="artnav"><!--Headmate Menu Starts-->
