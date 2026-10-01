@@ -544,7 +544,13 @@ justifyleft{width: 50%;}
     margin: 0px;
     font-size: 13px;
     border-right: 1px solid #CF629B;
+    background-size: 100% 300%;
 
+    transition: transform 0.2s;
+}
+.topmenu a:hover{
+    
+    background:
     linear-gradient(
         to right,
         var(--title-color),
@@ -554,20 +560,14 @@ justifyleft{width: 50%;}
         var(--link-color),
         var(--text-footer-2)
     );
-
-    transition: transform 0.2s;
-    transition: gradient-shift 15s ease infinite;
-    
-}
-.topmenu a:hover{
     transform: translateY(-2px);
-    background-position: 100% 0;
     transition: gradient-shift 15s ease infinite;
 }
 
 @keyframes gradient-shift{
-    0%{background-position: 0% 50%;}
-    100%{background-position: 100% 50%;}
+    0%{background-position: 0%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
 }
 
 .topmenu a:not(:last-child)::after{
