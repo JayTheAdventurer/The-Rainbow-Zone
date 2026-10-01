@@ -9,7 +9,7 @@ document.getElementById('artheader').innerHTML =
         <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Gallery/Self Art/jayart.html" style="color: #bc3839;"><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Headmate Icons/jay icon.png" alt="">Jay</a>
         <a href="" style="color: #6b15a2;"><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Headmate Icons/nathan icon.png" alt="">Nathan</a>
         <a href="" style="color: #ae6584;"><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Headmate Icons/nurse icon.png" alt="">Nurse</a>
-        <a href="" style="color: #a46aa5;"><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Headmate Icons/sammy icon.png" alt="">Sammy</a>
+        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Gallery/Self Art/sammyart.html" style="color: #a46aa5;"><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Headmate Icons/sammy icon.png" alt="">Sammy</a>
         <p>⋆⁺₊⋆</p>
     </div>
     <div class="artnav1"><!--Misc art Starts-->
