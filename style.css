@@ -544,6 +544,8 @@ justifyleft{width: 50%;}
     margin: 0px;
     font-size: 13px;
     border-right: 1px solid #CF629B;
+
+    transition: transform 0.2s;
 }
 .topmenu a:hover{
     
@@ -557,6 +559,7 @@ justifyleft{width: 50%;}
         var(--link-color),
         var(--text-footer-2)
     );
+    transform: translateY(-2px);
     transition: gradient-shift 15s ease infinite;
 }
 
