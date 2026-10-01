@@ -556,14 +556,10 @@ justifyleft{width: 50%;}
         var(--link-color),
         var(--text-footer-2)
     );
-
-    background-size: 100% 3px, 0 3px;
-    background-position: 100% 100%, 0 100%;
-    background-repeat: no-repeat;
     transition: gradient-shift 15s ease infinite;
 }
 .topmenu a:hover{
-    background-size: 100% 3px, 0 3px;
+    
     background:
     linear-gradient(
         to right,
