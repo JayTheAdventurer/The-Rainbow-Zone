@@ -544,19 +544,6 @@ justifyleft{width: 50%;}
     margin: 0px;
     font-size: 13px;
     border-right: 1px solid #CF629B;
-
-
-    background:
-    repeating-linear-gradient(
-        to right,
-        var(--title-color),
-        var(--text-color-2),
-        var(--text--footer),
-        var(--text-color-3),
-        var(--link-color),
-        var(--text-footer-2)
-    );
-    transition: gradient-shift 15s ease infinite;
 }
 .topmenu a:hover{
     
