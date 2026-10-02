@@ -551,7 +551,7 @@ justifyleft{width: 50%;}
 }
 
 .topmenu h2:hover, .topmenu a:hover{
-    --progress: 0%;
+    --progress: 25%;
     background:
     linear-gradient(
         to right,
@@ -564,13 +564,13 @@ justifyleft{width: 50%;}
         var(--text-footer-2)
     );
     transform: translateY(-2px);
-    transition: gradient-shift 15s ease infinite;
+    transition: gradient-shift 2.5s ease;
 }
 
 @property --progress {
   syntax: "<percentage>";
   inherits: false;
-  initial-value: 0%;
+  initial-value: 25%;
 }
 
 /* The container <div> - needed to position the dropdown content */
