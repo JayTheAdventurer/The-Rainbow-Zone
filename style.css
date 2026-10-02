@@ -551,10 +551,11 @@ justifyleft{width: 50%;}
 }
 
 .topmenu h2:hover, .topmenu a:hover{
-    
+    --progress: 0%;
     background:
     linear-gradient(
         to right,
+        var(#2e171e),
         var(--title-color),
         var(--text-color-2),
         var(--text--footer),
@@ -566,6 +567,11 @@ justifyleft{width: 50%;}
     transition: gradient-shift 15s ease infinite;
 }
 
+@property --progress {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -599,9 +605,9 @@ justifyleft{width: 50%;}
 
 
 @keyframes gradient-shift{
-    0%{background-position: 0%;}
-    50%{background-position: 100% 50%;}
-    100%{background-position: 0% 50%;}
+    to {
+    --progress: 100%;
+  }
 }
 
 .topmenu a:not(:last-child)::after{
