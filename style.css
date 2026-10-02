@@ -545,32 +545,48 @@ justifyleft{width: 50%;}
     margin: 0px;
     font-size: 13px;
     border-right: 1px solid #CF629B;
-    
-
-    transition: transform 0.2s;
+    background-size: 200% 200%;
 }
 
 .topmenu h2:hover, .topmenu a:hover{
-    --progress: 25%;
+    
+    background-position: 100% 0;
+    content: "";
+    
     background:
-    linear-gradient(
+    repeating-linear-gradient(
+
         to right,
-        var(#2e171e),
         var(--title-color),
         var(--text-color-2),
         var(--text--footer),
         var(--text-color-3),
         var(--link-color),
-        var(--text-footer-2)
+        var(--text-footer-2),
+        var(--link-color),
+        var(--text-color-3),
+        var(--text--footer),
+        var(--text-color-2),
+        var(--title-color),
+        var(--text-color-2),
+        var(--text--footer),
+        var(--text-color-3)
     );
+    background-size: 400% 400%;
+    animation: background-slide 5s linear infinite;
     transform: translateY(-2px);
-    animation: gradient-shift 2.5s ease;
+    
+    
 }
 
-@property --progress {
-  syntax: "<percentage>";
-  inherits: false;
-  initial-value: 25%;
+@keyframes background-slide {
+    0% {
+        background-position: 0% 50%;
+    }
+    100%{
+        background-position: 100% 50%;
+    }
+
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -602,13 +618,6 @@ justifyleft{width: 50%;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
-
-
-@keyframes gradient-shift{
-    to {
-    --progress: 100%;
-  }
-}
 
 .topmenu a:not(:last-child)::after{
     border-right: 0px;
