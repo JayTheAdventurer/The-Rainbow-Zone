@@ -564,7 +564,7 @@ justifyleft{width: 50%;}
         var(--text-footer-2)
     );
     transform: translateY(-2px);
-    transition: gradient-shift 2.5s ease;
+    animation: gradient-shift 2.5s ease;
 }
 
 @property --progress {
