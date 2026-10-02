@@ -535,7 +535,7 @@ justifyleft{width: 50%;}
 
 .topmenu img{image-rendering: pixelated;}
 
-.topmenu a{
+.topmenu h2, .topmenu a{
     color: inherit;
     font-family: var(--tertiary-font);
     text-decoration: none;
@@ -548,7 +548,8 @@ justifyleft{width: 50%;}
 
     transition: transform 0.2s;
 }
-.topmenu a:hover{
+
+topmenu h2:hover, .topmenu a:hover{
     
     background:
     linear-gradient(
@@ -560,10 +561,33 @@ justifyleft{width: 50%;}
         var(--link-color),
         var(--text-footer-2)
     );
-    background-size: 100% 300%;
     transform: translateY(-2px);
     transition: gradient-shift 15s ease infinite;
 }
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.topmenu:hover .dropdown-content {display: block;}
 
 @keyframes gradient-shift{
     0%{background-position: 0%;}
