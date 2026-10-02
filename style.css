@@ -57,7 +57,8 @@
 p{font-weight: 600;}
 .buttonstyle button{color: #ac3232; background-color: #d4d1ad;}
 .topmenu{background-color: #1f1947;}
-.topmenu a{color: white;}
+.topmenu h2, .topmenu a{color: white;}
+.dropdown-content a{color: black;}
 footer{background-color: #1f1947;;}
 
 }

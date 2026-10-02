@@ -18,7 +18,21 @@ document.getElementById('headerlinks').innerHTML =
                         <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/spectrum.html">Plural Spectrum</a>
                     </div>
                 </div>
-                <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/creations.html" alt="Art gallery and creative interests">Creations</a>
+
+                <div class="dropdown">
+                    <h2>Creations</h2>
+                    <div class="dropdown-content">
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/creations.html">Main Gallery</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/">Pixel Art</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Gallery/selfart.html">Self Art</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/">UI/UX</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/">OC's</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/">Stickers</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/">Masks</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/">Literature</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/">3d Modeling</a>
+                    </div>
+                </div>
 
                 <a href="" alt="Commissions (leads to outside site)">Jay's Commission Zone</a>
 
