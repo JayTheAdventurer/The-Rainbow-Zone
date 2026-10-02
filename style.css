@@ -549,7 +549,7 @@ justifyleft{width: 50%;}
     transition: transform 0.2s;
 }
 
-topmenu h2:hover, .topmenu a:hover{
+.topmenu h2:hover, .topmenu a:hover{
     
     background:
     linear-gradient(

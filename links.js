@@ -15,7 +15,7 @@ document.getElementById('headerlinks').innerHTML =
                         <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/faq.html">FAQ</a>
                         <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/glossary.html">Glossary</a>
                         <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/questionnaire.html">Boundaries</a>
-                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/Spectrum.html">Plural Spectrum</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/spectrum.html">Plural Spectrum</a>
                     </div>
                 </div>
                 <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/creations.html" alt="Art gallery and creative interests">Creations</a>
