@@ -8,15 +8,16 @@ document.getElementById('headerlinks').innerHTML =
                 
                 <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/home.html" alt="Homepage">Home</a>
                 
-                <h2>Wtf is this?</h2>
-                <div class="dropdown-content">
-                    <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/about.html">About</a>
-                    <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/faq.html">FAQ</a>
-                    <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/glossary.html">Glossary</a>
-                    <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/questionnaire.html">Boundaries</a>
-                    <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/Spectrum.html">Plural Spectrum</a>
+                <div class="dropdown">
+                    <h2>Wtf is this?</h2>
+                    <div class="dropdown-content">
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/about.html">About</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/faq.html">FAQ</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/glossary.html">Glossary</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/questionnaire.html">Boundaries</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/Spectrum.html">Plural Spectrum</a>
+                    </div>
                 </div>
-
                 <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/creations.html" alt="Art gallery and creative interests">Creations</a>
 
                 <a href="" alt="Commissions (leads to outside site)">Jay's Commission Zone</a>
