@@ -4,7 +4,7 @@ document.getElementById('artheader').innerHTML =
     <div class="artnav"><!--Headmate Menu Starts-->
         <p>⋆⁺₊⋆</p>
         <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Gallery/Self Art/bluestarart.html" style="color: #5ee5d1;"><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Headmate Icons/bluestar_icon.png" alt="">Bluestar</a>
-        <a href="" style="color: #277627;"><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Headmate Icons/gabe_icon.png" alt="">Gabe</a>
+        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Gallery/Self Art/gabeart.html" style="color: #277627;"><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Headmate Icons/gabe_icon.png" alt="">Gabe</a>
         <a href="" style="color: #5fe18d;"><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Headmate Icons/greenstar_icon.png" alt="">Greenstar</a>
         <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Gallery/Self Art/jayart.html" style="color: #bc3839;"><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Headmate Icons/jay_icon.png" alt="">Jay</a>
         <a href="" style="color: #6b15a2;"><img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/Headmate Icons/nathan_icon.png" alt="">Nathan</a>
