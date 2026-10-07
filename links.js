@@ -11,11 +11,11 @@ document.getElementById('headerlinks').innerHTML =
                 <div class="dropdown">
                     <h2>Wtf is this?</h2>
                     <div class="dropdown-content">
-                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/About/index.html">About</a>
-                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/FAQ/index.html">FAQ</a>
-                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/Glossary/index.html">Glossary</a>
-                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/Questionnaire/index.html">Boundaries</a>
-                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/Plural-Spectrum/index.html">Plural Spectrum</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System-Info/About/index.html">About</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System-Info/FAQ/index.html">FAQ</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System-Info/Glossary/index.html">Glossary</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System-Info/Questionnaire/index.html">Boundaries</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System-Info/Plural-Spectrum/index.html">Plural Spectrum</a>
                     </div>
                 </div>
 
@@ -37,7 +37,7 @@ document.getElementById('headerlinks').innerHTML =
                 <a href="" alt="Commissions (leads to outside site)">Jay's Commission Zone</a>
 
                 <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/The-Crew/index.html" alt="Introductions">Meet the Crew</a>
-                <div>
+                <div class="dropdown">
                     <h2>Journal</h2>
                     <div class="dropdown-content">
                         <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Journal/index.html" alt="Journal and Updates">Main Journal</a>
