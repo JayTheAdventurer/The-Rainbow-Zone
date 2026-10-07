@@ -6,25 +6,25 @@ document.getElementById('headerlinks').innerHTML =
             <div class="topmenu"> <!--Main Navigation-->
                 <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/UI-UX/sitetitle.png" alt="The rainbow zone img title">
                 
-                <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/home.html" alt="Homepage">Home</a>
+                <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Home/index.html" alt="Homepage">Home</a>
                 
                 <div class="dropdown">
                     <h2>Wtf is this?</h2>
                     <div class="dropdown-content">
-                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/about.html">About</a>
-                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/faq.html">FAQ</a>
-                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/glossary.html">Glossary</a>
-                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/questionnaire.html">Boundaries</a>
-                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/spectrum.html">Plural Spectrum</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/About/index.html">About</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/FAQ/index.html">FAQ</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/Glossary/index.html">Glossary</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/Questionnaire/index.html">Boundaries</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/System Info/Plural-Spectrum/index.html">Plural Spectrum</a>
                     </div>
                 </div>
 
                 <div class="dropdown">
                     <h2>Creations</h2>
                     <div class="dropdown-content">
-                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/creations.html">Main Gallery</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Gallery/index.html">Main Gallery</a>
                         <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/">Pixel Art</a>
-                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Gallery/selfart.html">Self Art</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Gallery/Self Art/index.html">Self Art</a>
                         <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/">UI/UX</a>
                         <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/">OC's</a>
                         <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/">Stickers</a>
@@ -36,11 +36,19 @@ document.getElementById('headerlinks').innerHTML =
 
                 <a href="" alt="Commissions (leads to outside site)">Jay's Commission Zone</a>
 
-                <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/thecrew.html" alt="Introductions">Meet the Crew</a>
+                <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/The-Crew/index.html" alt="Introductions">Meet the Crew</a>
+                <div>
+                    <h2>Journal</h2>
+                    <div class="dropdown-content">
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Journal/index.html" alt="Journal and Updates">Main Journal</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/" alt="Updates">Updates</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/" alt="Blog">Blog</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/" alt="Miscellaneous Writings">Miscellaneous Crap</a>
+                    </div>
+                </div>
+                
 
-                <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/journal.html" alt="Journal and Updates">Journal</a>
-
-                <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/linkpage.html" alt="Links, buttons, and our friends' sites">Links</a>
+                <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Links/index.html" alt="Links, buttons, and our friends' sites">Links</a>
 
                 <a href="" alt="The rainbow zone entrance link">Enter</a>
             </div>
@@ -66,7 +74,7 @@ document.getElementById('headerlinks').innerHTML =
                 </nav>
 
                 <div id="footerlinks">
-                    <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/sitemap.html">Sitemap</a>
+                    <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Sitemap/index.html">Sitemap</a>
                     <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/UI-UX/dot.png" alt="Dot">
                     <a href="">Privacy</a>
                     <img src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/UI-UX/dot.png" alt="Dot">
