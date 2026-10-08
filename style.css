@@ -59,7 +59,8 @@ p{font-weight: 600;}
 .topmenu{background-color: #1f1947;}
 .topmenu h2, .topmenu a{color: white;}
 .dropdown-content a{color: black;}
-footer{background-color: #1f1947;;}
+footer{background-color: #1f1947;}
+.arttxt p, .artcredit p{color: white;}
 
 }
 
