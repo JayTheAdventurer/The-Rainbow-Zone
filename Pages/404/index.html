@@ -44,16 +44,21 @@
                 <span style="color: var(--text-footer-2);">e</span>
                 <span style="color: var(--title-color);">?</span>
             </div><br>
-            <img class="pixelimg" src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/UI-UX/404_lighthouse.png" alt="A red and white striped lighthouse shines a light on a lone boat drifing off into the sea."><br><br>
+            <div class="lighthouseimg">
+                <img class="pixelimg" src="https://jaytheadventurer.github.io/The-Rainbow-Zone/Assets/UI-UX/404_lighthouse.png" alt="A red and white striped lighthouse shines a light on a lone boat drifing off into the sea.">
+            </div>
+            <br><br>
             <b>The page you're looking for doesn't exist!</b><br><br>
-            <b>Either way, here's the link to head back <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Home/index.html">home</a>
+            <b>Here's the link to head back <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Home/index.html">home</a>
                 (or check out our sitemap <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Sitemap/index.html">here</a>)!
             </b>
         </div>
         <style>
-            .notfound{text-align: center;}
+            .notfound{text-align: center; display: grid; place-items: center;}
             .notfound h2{font-size: 30px;}
-            .notfound img{max-width: 400px; min-width: 200px;}
+            .notfound b{margin: 10px 5px;}
+            .notfound img{width: 100%;}
+            .lighthouseimg{width: 400px;}
             .textwave{font-family: var(--secondary-font); font-size: 0px;}
             .textwave span{ display: inline-block; font-size: 30px; font-weight: 900; -webkit-animation: textwave 3s ease-in-out infinite; animation: textwave 5s ease-in-out infinite;}
             .textwave span:nth-of-type(1){ -webkit-animation-delay: 0s;animation-delay: 0s;}
@@ -85,6 +90,7 @@
                 50%{transform: translateY(-10px);}
                 100%{transform: translateY(0px);}
             }
+             @media only screen and (max-width:700px){.lighthouseimg{width: 200px;}}
         </style>
         <script src="https://jaytheadventurer.github.io/The-Rainbow-Zone/freezegifs.js"></script>
         <noscript>
