@@ -34,15 +34,15 @@ document.getElementById('headerlinks').innerHTML =
                     </div>
                 </div>
 
-                <a href="" alt="Commissions (leads to outside site)">Jay's Commission Zone</a>
+                <!-- <a href="" alt="Commissions (leads to outside site)">Jay's Commission Zone</a> -->
 
                 <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/The-Crew/index.html" alt="Introductions">Meet the Crew</a>
                 <div class="dropdown">
                     <h2>Journal</h2>
                     <div class="dropdown-content">
                         <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Journal/index.html" alt="Journal and Updates">Main Journal</a>
-                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/" alt="Updates">Updates</a>
-                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/" alt="Blog">Blog</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Journal/Updates/index.html" alt="Updates">Updates</a>
+                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Journal/Blog/index.html" alt="Blog">Blog</a>
                     </div>
                 </div>
                 
