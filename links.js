@@ -43,7 +43,6 @@ document.getElementById('headerlinks').innerHTML =
                         <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/Pages/Journal/index.html" alt="Journal and Updates">Main Journal</a>
                         <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/" alt="Updates">Updates</a>
                         <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/" alt="Blog">Blog</a>
-                        <a href="https://jaytheadventurer.github.io/The-Rainbow-Zone/" alt="Miscellaneous Writings">Miscellaneous Crap</a>
                     </div>
                 </div>
                 
